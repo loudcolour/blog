@@ -1,5 +1,5 @@
 <p><strong>정리 1</strong>(Bernstein). 집합 $A, B$에 대하여, $|A|\leq |B|$인 동시에 $|A|\geq |B|$라면, $|A| = |B|$이다.</p>
-<p><strong>증명</strong>. $|A|\leq |B|$인 동시에 $|A|\geq |B|$이므로, 단사사상 $f\colon A\to B$와 $g\colon B\to A$가 존재한다. 집합족 $ \left\{ C_i \mid i\in\SetZ_{\geq 0} \right\}$을 $C_0 = A\setminus g(B)$, $C_{n+1} = g(f(C_n))$을 만족한도록 정의하고, $C = \bigcup_{i=0}^{\infty} C_i$로 두어, 사상 $h\colon A\to B$를 다음과 같이 정의하면, $h$는 전단사사상이다.</p>
+<p><strong>증명</strong>. $|A|\leq |B|$인 동시에 $|A|\geq |B|$이므로, 단사사상 $f\colon A\to B$와 $g\colon B\to A$가 존재한다. 집합족 $ \left\{ C_i \mid i\in\SetZ_{\geq 0} \right\}$을 $C_0 = A\setminus g(B)$, $C_{n+1} = g(f(C_n))$을 만족하도록 정의하고, $C = \bigcup_{i=0}^{\infty} C_i$로 두어, 사상 $h\colon A\to B$를 다음과 같이 정의하면, $h$는 전단사사상이다.</p>
 <p>$$ h(x) = \begin{cases} f(x) &amp; x\in C \\ g^{-1}(x) &amp; x\in A\setminus C \end{cases} $$</p>
 <p>우선, $h$가 사상으로서 올바르게 정의되었는지를 확인하자. $C_0\subset C$에 의하여, $g(B) = A\setminus C_0 \supset A\setminus C$인 동시에 $g$는 단사이므로, $x\in A\setminus C$인 경우에도 $h(x) = g^{-1}(x)$가 문제없이 정의된다.</p>
 <p>다음으로, $h$가 단사사상이라는 것을 보이자.</p>
