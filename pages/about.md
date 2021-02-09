@@ -5,16 +5,16 @@
 명제, 정리를 하나하나 정리해 나갈려고 합니다.
 
 개인이 자발적으로 운영하는 블로그의 특성 상, 여러 부족한 부분이나, 오류가
-내용에 존재할 수 있습니다. 이러한 사항에 관련하여, 댓글이나 Discord 서버, 혹은
-하기 관리자의 연락처를 통해 질문하거나 지적해 주시면 감사하겠습니다.
+내용에 존재할 수 있습니다. 이러한 사항에 관련하여, 댓글 혹은 하기 운영자의
+연락처를 통해 질문하거나 지적해 주시면 감사하겠습니다.
 
 ## About 'S. Hyeon'
 
 수학과 학부생입니다.
 
-- **위치:** 일본, 도쿄 (2018.09~)
-- **언어:** 한국어(ko-KR), 영어(en-US), 일본어(ja-JP)
-- **관심사:** 수학, Linux/FLOSS, 프로그래밍 -- C/C++, Rust, Python, ...
+- **Location:** Tokyo, Japan
+- **Language:** Korean (ko-KR), English (en-US), Japanese (ja-JP)
+- **Interested in:** Mathematics, Linux/FLOSS, Programming -- C/C++, Rust, Python, ...
 
 Email 주소, PGP fingerprint, 그 외 연락처:
 
