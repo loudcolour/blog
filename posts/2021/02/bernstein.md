@@ -4,7 +4,7 @@ $|A| = |B|$이다.
 
 **증명**.  $|A|\leq |B|$인 동시에 $|A|\geq |B|$이므로, 단사사상 $f\colon A\to B$와
 $g\colon B\to A$가 존재한다.  집합족
-$\left\{ C\_i \mid i\in\Z\_{\geq 0} \right\}$을
+$\left\{ C_i \mid i\in\Z_{\geq 0} \right\}$을
 $C_0 = A\setminus g(B)$, $C_{n+1} = g(f(C_n))$을 만족하도록 정의하고,
 $C = \bigcup_{i=0}^{\infty} C_i$로 두어, 사상 $h\colon A\to B$를
 다음과 같이 정의하면, $h$는 전단사사상이다.
