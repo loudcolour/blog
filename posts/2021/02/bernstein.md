@@ -2,15 +2,16 @@
 집합 $A, B$에 대하여, $|A|\leq |B|$인 동시에 $|A|\geq |B|$라면,
 $|A| = |B|$이다.
 
-**증명**.  $|A|\leq |B|$인 동시에 $|A|\geq |B|$이므로, 단사사상 $f\colon A\to
-B$와 $g\colon B\to A$가 존재한다.  집합족 $ \left\\{ C\_i \mid i\in\SetZ\_{\geq
-0} \right\\}$을 $C_0 = A\setminus g(B)$, $C_{n+1} = g(f(C_n))$을 만족하도록 정의하고,
-$C = \bigcup_{i=0}^{\infty} C_i$로 두어, 사상 $h\colon A\to
-B$를 다음과 같이 정의하면, $h$는 전단사사상이다.
+**증명**.  $|A|\leq |B|$인 동시에 $|A|\geq |B|$이므로, 단사사상 $f\colon A\to B$와
+$g\colon B\to A$가 존재한다.  집합족
+$\left\{ C\_i \mid i\in\Z\_{\geq 0} \right\}$을
+$C_0 = A\setminus g(B)$, $C_{n+1} = g(f(C_n))$을 만족하도록 정의하고,
+$C = \bigcup_{i=0}^{\infty} C_i$로 두어, 사상 $h\colon A\to B$를
+다음과 같이 정의하면, $h$는 전단사사상이다.
 
 $$
 h(x) = \begin{cases}
-  f(x) & x\in C \\\\
+  f(x) & x\in C \\
   g^{-1}(x) & x\in A\setminus C
 \end{cases}
 $$
@@ -27,7 +28,7 @@ $x\in A\setminus C$인 경우에도 $h(x) = g^{-1}(x)$가 문제없이 정의된
   $h(x) = g^{-1}(x) = g^{-1}(y) = h(y)$이라고 할 때,
   $g^{-1}(x) = g^{-1}(y) = z$ 으로 두면, $x = g(z) = y$이다.
 - $x\in C, y\in A\setminus C$인 경우: $x\neq y$는 분명하다.
-  $x\in C$이므로, $n_0\in \SetZ_{\geq 0}$가
+  $x\in C$이므로, $n_0\in \Z_{\geq 0}$가
   존재하여 $x\in C_{n_0}$일 것이다.
   $h(x) = f(x) \in f(C_{n_0})\subset g^{-1}(g(f(C_{n_0}))) = g^{-1}(C_{n_0+1})$인 동시에,
   $h(y) = g^{-1}(y)\in g^{-1}(A\setminus C)$이라는 것을 알 수 있으므로,
@@ -37,8 +38,8 @@ $x\in A\setminus C$인 경우에도 $h(x) = g^{-1}(x)$가 문제없이 정의된
 
 - $b\in f(C)$인 경우: 정의대로 $b = f(a) = h(a)$인 $a\in C\subset A$가 존재한다.
 - $b\notin f(C)$인 경우: $a \coloneqq g(b)$로 두면, $a \in g(B\setminus f(C))$
-  이다. $g$는 단사이므로, $g(B\setminus f(C)) = g(B)\setminus g(f(C)) =
-  A \setminus \left( C_0 \cup g(f(C)) \right) = A\setminus C$이다.
+  이다. $g$는 단사이므로,
+  $g(B\setminus f(C)) = g(B)\setminus g(f(C)) = A \setminus \left( C_0 \cup g(f(C)) \right) = A\setminus C$이다.
   따라서, $a \in A\setminus C$이고,
   $h(a) = g^{-1}(a) = b$이다. $\square$
 

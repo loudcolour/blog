@@ -39,7 +39,7 @@ $n$개), $a^{-n} = (a^n)^{-1}$으로 쓰기로 한다. 이 경우, 임의의 $m,
 **위수(order)** 라고 한다. 위수가 유한인 군을 유한군, 그렇지 않은 군을
 무한군이라고 한다.
 
-**예 1**.  $G = \left\\{ e \right\\}$에 연산을 $\phi: (e,e)\mapsto e$와 같이
+**예 1**.  $G = \left\{ e \right\}$에 연산을 $\phi: (e,e)\mapsto e$와 같이
 부여하면, 이는 원소 1개만을 가지는 군을 이룬다. 이러한 군을 **자명한 군(trivial
 group)** 이라고 한다.
 
@@ -48,26 +48,27 @@ $\SetZ$, $\SetQ$, $\SetR$, $\SetC$는 통상적인 덧셈에 의하여 가환군
 단위원은 $0$, 각 집합의 원소 $x$의 역원은 $-x$가 된다.
 
 **예 3**.
-$\SetQ\setminus \left\\{ 0 \right\\}$, $\SetR\setminus \left\\{ 0 \right\\}$,
-$\SetC\setminus \left\\{ 0 \right\\}$는 통상적인 곱셈에 의하여 가환군을
+$\SetQ\setminus \left\{ 0 \right\}$, $\SetR\setminus \left\{ 0 \right\}$,
+$\SetC\setminus \left\{ 0 \right\}$는 통상적인 곱셈에 의하여 가환군을
 이룬다.  단위원은 $1$, 각 집합의 원소 $x$의 역원은 $1/x$가 된다.  그러나
-$\SetZ\setminus \left\\{ 0 \right\\}$는 통상적인 곱셈에 의하여 군을 이루지
+$\SetZ\setminus \left\{ 0 \right\}$는 통상적인 곱셈에 의하여 군을 이루지
 않는다. 예를 들어, $2\in\SetZ$에 대해서는 역원이 존재하지 않는다.
 
 **예 4**.
 $X$를 집합이라고 할 때, 전단사 사상 $\sigma: X\to X$를 $X$의 치환이라고
-한다.  $\mathfrak S$를 $X$의 치환 전체의 집합이라고 하고, $\sigma,
-\tau\in\mathfrak S$에 대하여, $\sigma\tau = \sigma\circ\tau$로 연산을
+한다.  $\mathfrak S$를 $X$의 치환 전체의 집합이라고 하고, $\sigma,\tau\in\mathfrak S$
+에 대하여, $\sigma\tau = \sigma\circ\tau$로 연산을
 정의하면, $\mathfrak S$는 군의 정의를 만족하는 것을 알 수 있다. 여기서
-$\mathfrak S$를 $X$의 치환군이라고 하며, 특히 $X_n = \left\\{ 1, 2,\dots, n
-\right\\}$이라고 할 때, $X_n$의 치환군 $\mathfrak S_n$을 $n$차의 **대칭군(symmetry group)** 이라고
+$\mathfrak S$를 $X$의 치환군이라고 하며, 특히
+$X_n = \left\{ 1, 2,\dots, n\right\}$
+이라고 할 때, $X_n$의 치환군 $\mathfrak S_n$을 $n$차의 **대칭군(symmetry group)** 이라고
 한다.  $\mathfrak S_n$은 위수 $n!$의 유한군임을 간단한 계산으로부터 확인할
 수 있다.
 
-$1\leq i_1, \ldots, i_m\leq n$을 서로 다른 정수라고 하고, $\sigma(i_1) = i_2,
-\sigma(i_2) = i_3, \ldots, \sigma(i_{m-1}) = i_m, \sigma(i_m) = i_1$ 을 만족, $
-\left\\{ i_1,\ldots,i_m \right\\}$에 속하지 않는 $j$에 대해서는 $\sigma(j) =
-j$인 $\sigma \in \mathfrak S_n$을 길이 $m$의 순회치환이라고 한다. 특히 길이가
+$1\leq i_1, \ldots, i_m\leq n$을 서로 다른 정수라고 하고,
+$\sigma(i_1) = i_2,\sigma(i_2) = i_3, \ldots, \sigma(i_{m-1}) = i_m, \sigma(i_m) = i_1$
+을 만족, $\left\{ i_1,\ldots,i_m \right\}$에 속하지 않는 $j$에 대해서는
+$\sigma(j) =j$인 $\sigma \in \mathfrak S_n$을 길이 $m$의 순회치환이라고 한다. 특히 길이가
 $2$인 순회치환을 호환이라고 한다.
 
 **예 5**.
