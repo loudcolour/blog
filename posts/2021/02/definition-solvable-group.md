@@ -66,4 +66,56 @@ $\pi: G\to G/D(G)$가 주어졌을 때, 준동형의 분해를 통해 $g\circ \p
 정의할 때, $G=D_0(G)\supset D_1(G)\supset D_2(G) \supset \cdots$ 와 같은
 감소열을 얻을 수 있다.
 
+**정의 2**(가해군).
+$G$를 군이라고 하자. $D_n(G) = \left\{ 1_G \right\}$인 $n\geq 0$가 존재할 때,
+$G$는 **가해군(solvable group)** 이라고 한다.
+
+**예 1**. 임의의 abelian 군은 가해군이다.
+
+**보조정리 3**. $G$를 가해군이라고 하자.
+
+1. $H$를 $G$의 부분군이라고 하면, $H$는 가해군이다.
+2. $N\vartriangleleft G$라고 하면, $G/N$은 가해군이다.
+
+**증명**.
+
+1. 귀납법을 이용하면, 모든 $i\geq 0$에 대하여 $D_i(H) \subset D_i(G)$가 성립하는 것을 알 수 있다. 따라서 $H$는 가해군.
+2. 역시 귀납법을 이용하여 모든 $i\geq 0$에 대해 $D_i(G/N) = D_i(G)N/N$이 성립하는 것을 보일 수 있다.
+   구체적으로 과정을 설명하면,
+    1. $D_0(G/N) = G/N = D_0(G)N/N$.
+    2. $D_i(G/N) = D_{i}(G)N/N$이 성립한다면,
+       $D_{i+1}(G/N) = D(D_{i}(G/N)) = D(D_{i}(G)N/N) = D_{i+1}(G)N/N$. $\square$
+
+**정리 4**.
+$G$를 군, $N\vartriangleleft G$라고 하자. 다음은 모두 동치이다.
+
+1. $G$는 가해군이다.
+2. $G/N$와 $N$이 동시에 가해군이다.
+3. 다음과 같은 사슬 $G = G_0 \vartriangleright G_1 \vartriangleright \cdots \vartriangleright G_n = \left\{ 1 \right\}$ 이 존재하여,
+   임의의 $i\geq 0$에 대해 $G_i/G_{i+1}$가 abelian이다.
+
+**증명**.
+
+- 1이면 2. 보조정리 3에서 이미 증명했다.
+- 2이면 1. $D_n(N) = \left\{ 1 \right\}$, 그리고 $D_m(G/N) = \left\{ 1 \right\}$라고 하자.
+   그렇다면, $\left\{ 1 \right\} = D_m(G/N) = D_m(G)N/N$, $D_m(G) \subset N$이다.
+   따라서, $D_{n+m}(G) \subset D_n(N) = \left\{ 1 \right\}$.
+- 1이면 3. $G_i \coloneqq D_i(G)$로 두면, 명제 1과 명제 2에 의하여 $\left\{ G_i\right\}$
+  가 3의 사슬로서의 조전을 만족함을 알 수 있다.
+- 3이면 1. $G_n$은 가해군이다. 또한, 임의의 $i\geq 0$에 대하여 $G_{i+1}$이
+  가해군이라면, $G_{i}/G_{i+1}$은 abelian이므로 가해군, 따라서 $G_i$ 역시 가해군이다.
+  귀납법에 따라 $G_0 = G$는 가해군. $\square$
+
+**정의 3**(단순군).
+군 $G$가 abelian이 아닌 동시에, $G$의 유일한 정규부분군이 자명군이라면
+$G$는 **단순군(simple group)** 이라고 한다.
+
+정의로부터 단순군은 가해군이 아님을 알 수 있다.
+
+**문제**.
+
+- $\mathfrak S_4$와 $A_4$가 가해군임을 보여라. (힌트: $A_4 \vartriangleright$ Klein 4원군 $\vartriangleright$ 자명군.)
+- $n\geq 5$에 대하여 $\mathfrak S_n$과 $A_n$이 가해군이 아님을 보여라.
+
+사실, $n\geq 5$라면 $A_n$은 단순군이다.
 
