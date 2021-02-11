@@ -3,7 +3,7 @@
 **정의 1**(멱영군).  $G$를 군이라고 하자. 군의 열
 $G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재하여,
 모든 $i=0,\ldots,n-1$에 대하여 다음 조건을 만족한다면, $G$는
-**멱영군(nilpotent group)** 이라고 한다.
+**멱영군(nilpotent group)**이라고 한다.
 
 1. $G_{i+1} \vartriangleleft G$.
 2. $G_i/G_{i+1} \subset \text{Z}(G/G_{i+1})$.
@@ -21,8 +21,8 @@ $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
 
 ## 이 포스트에서는...
 
-- **멱영군** 을 정의했다.
-- **멱영군은 가해군** 임을 보였다.
+- **멱영군**을 정의했다.
+- **멱영군은 가해군**임을 보였다.
 
 [^1]: [교환자군과 가해군](/2021/02/definition-solvable-group/#부분군으로서의-교환자군), 명제 2.
 [^2]: [교환자군과 가해군](/2021/02/definition-solvable-group/#가해군의-정의), 정리 4.
