@@ -1,35 +1,64 @@
 ## $p$-군의 정의
+
+**정의 1**($p$-군).
+$G$를 유한군이라고 하자. $|G| = p^e$ ($p$는 소수, $e\in\SetZ_{>0}$) 일 때,
+$G$를 **$p$-군**이라고 한다.
+
 ## $p$-군의 성질
 
-\begin{proposition}
-    Every $p$-group is nilpotent group.
-\end{proposition}
+**명제 1**. $G$를 $p$-군이라고 하자. 이 때,
+$\left\{ 1_G \right\} \neq N \vartriangleleft G$
+라고 할 때, $N\cap \text{Z}(G) \neq \left\{ 1_G \right\}$이다.
+특히, 임의의 $p$-군 $G$에 대하여, $Z(G) \neq \left\{ 1_G \right\}$ 이다.
 
-\begin{proof}
-    Let's say $G$ is non-trivial $p$-group.
-    By class equation, it is easy to prove the center of a non-trivial $p$-group
-    is not trivial. We define a sequence of set $Z_i$ by $Z_0 = \left\{ 1 \right\}$ and
-    $Z_{i+1} = \left\{ x\in G \mid xZ_i \in Z(G/Z_i) \right\} \supset Z_i$.
-    This is possible because we can show that $Z_i$ is a normal subgroup of $G$ for every $i\in\SetN$ by induction.
-    Then, we can directly show that $Z_{i+1}/Z_i = Z(G/Z_i)$.
-    For $i\in\SetN$ which satisfies $Z_i \subsetneq G$, $G/Z_i$ is also $p$-group,
-    thus $Z_{i+1}/Z_{i}$ is not trivial. Therefore, we can get a sequence
-    $ \left\{ 1 \right\} = Z_0 \subsetneq Z_1 \subsetneq \cdots \subsetneq Z_n = G$.
-\end{proof}
+**증명**. $\phi: G\times N \ni (g,n)\mapsto gng^{-1} \in N$과 같은 [작용](/2021/02/definition-action/)을 생각한다.
+$|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)와
+같이 나타내어진다.
+만약, $N \cap \text{Z}(G) = \left\{ 1_G \right\}$라고 가정하면,
+작용 $\phi$에 의한 궤도의 크기는 모두 $p^b$ ($0\leq b\leq a$)와 같이 나타내어지는 동시에,
+크기 $1$의 궤도는 $\left\{ 1_G \right\}$가 유일하게 된다.
+따라서, 크기 $1$이 아닌 나머지 궤도의 크기를 각각 $p^{b_1}, \ldots, p^{b_m}$
+($b_1,\ldots,b_m > 0$)라고 하면,
+$p^a =|N| = 1 +p^{b_1} + \cdots + p^{b_m}$이다.
+하지만 양변을 $p$로 나눈 나머지가 일치하지 않으므로 이는 모순. $\square$
 
-\begin{example}
-    Let $G$ be a group and its order be $56$. Then, $G$ is solvable.
-    $56 = 2^3\cdot 7$, and there exists two possibilities on the number of
-    7-Sylow subgroup: 1 and 8. If there exists only one 7-Sylow subgroup $P_7$,
-    i.e. $P_7 \vartriangleleft G$, $P_7$ and $G/P_7$ is 7-group and 2-group respectively,
-    thus $G$ is solvable by Lemma~\ref{LEM: 1}.
+**정리 2**. 임의의 $p$-군은 [멱영군](/2021/02/definition-nilpotent-group/)이다.
 
-    If there exist 8 7-Sylow subgroups of $G$, there are 48 elements of $G$
-    whose order is 7. (Let us say $P_7$ and $P_7'$ are not identical and both
-    7-Sylow subgroups.  If $x\in P_7 \cap P_7'$ and $x \neq 1$, $P_7 = \langle
-    x \rangle = P_7'$.  By contradiction, $P_7 \cap P_7'$ is trivial.) Thus
-    there exist at most 8 elements whose order is 1, 2, 4, or 8 on $G$.
-    This implies there is only one 2-Sylow subgroup $P_2$ i.e. $P_2 \vartriangleleft G$,
-    and thus $G$ is solvable as same as the case of $P_7 \vartriangleleft G$.
-\end{example}
+**증명**.
+$G$를 $p$-군이라고 하자.
+여기서, $N_0 = \left\{ 1_G \right\}$,
+$N_{i+1} = \left\{ x\in G\mid xN_i \in \text{Z}(G/N_i) \right\}$
+와 같이, 집합의 열 $N_i$를 정의하면, 임의의 $i\geq 0$에 대하여 다음을 만족하는
+것을 귀납법을 통해 알 수 있다.
 
+1. $N_i$는 $G$의 부분군, 동시에 $N_i \vartriangleleft G$. (연습문제)
+2. $N_{i+1}/N_i = \text{Z}(G/N_i)$. (정의로부터 분명)
+
+Lagrange 정리에 의하여, $N_i\subsetneq G$를 만족하는 $i\geq 0$에 대해 $G/N_i$는
+$p$-군이다.  따라서, 명제 1에 의하여, $\left\{ N_i \right\}\neq\text{Z}(G/N_i) = N_{i+1}/N_i$,
+$N_i \subsetneq N_{i+1}$, $G$는 유한군이므로, $N_n = G$인 $n\geq 0$이 존재하여,
+
+$$
+\left\{ 1 \right\} = N_0 \subsetneq N_1 \subsetneq \cdots \subsetneq N_n = G
+$$
+
+이다. 따라서 멱영군의 정의에 의하여 $G$는 멱영군.  $\square$
+
+**명제 3**. $G$를 유한군이라고 하자. $|G| = p^2$ ($p$는 소수) 라고 하면,
+$G$는 abelian이다.
+
+**증명**. $G$가 abelian이 아니라고, 즉, $\text{Z}(G) \subsetneq G$라고 가정하자.
+명제 1에 의하여 $1 < |\text{Z}(G)| < |G| = p^2$, Lagrange 정리에 의하여 $|\text{Z}(G)| = p$
+임을 알 수 있다. $x\in G$에 대해, $x\notin\text{Z}(G)$라고 하면, $x\in \text{Z}_G(x)$이므로,
+$\text{Z}(G) \subsetneq \text{Z}_G(x)$이다.
+따라서, $p = |\text{Z}(G)| < |\text{Z}_G(x)|$, $|\text{Z}_G(x)| = p^2 = |G|$이고,
+$G$는 유한군, $\text{Z}_G(x)$는 $G$의 부분군이므로,
+$\text{Z}_G(x) = G$이다. 이는 $x\in \text{Z}(G)$를 의미하므로, 모순. $\square$
+
+## 이 포스트에서는...
+
+- **$p$-군**을 정의했다.
+- $G$가 $p$-군이라면, $\text{Z}(G)\neq \left\{ 1_G \right\}$임을 보였다. 이를 이용하여:
+    - **임의의 $p$-군은 멱영군**임을 보였다. 따라서, "$p$-군 $\subset$ 멱영군 $\subset$ 가해군
+      $\subset$ 비단순군"의 함의 관계가 성립함을 알 수 있다.
+    - 특히, **$|G| = p^2$인 경우, $G$는 abelian**임을 보였다.
