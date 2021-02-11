@@ -9,7 +9,7 @@ $G$를 **$p$-군**이라고 한다.
 **명제 1**. $G$를 $p$-군이라고 하자. 이 때,
 $\left\{ 1_G \right\} \neq N \vartriangleleft G$
 라고 할 때, $N\cap \text{Z}(G) \neq \left\{ 1_G \right\}$이다.
-특히, 임의의 $p$-군 $G$에 대하여, $Z(G) \neq \left\{ 1_G \right\}$ 이다.
+특히, 임의의 $p$-군 $G$에 대하여, $\text{Z}(G) \neq \left\{ 1_G \right\}$ 이다.
 
 **증명**. $\phi: G\times N \ni (g,n)\mapsto gng^{-1} \in N$과 같은 [작용](/2021/02/definition-action/)을 생각한다.
 $|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)와
