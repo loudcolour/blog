@@ -1,58 +1,29 @@
 ## 멱영군의 정의
 
-\begin{definition}[nilpotent group]
-    $G$ is said to be \emph{nilpotent group} if there exists a sequence of
-    group $G = G_0 \supset G_1 \supset \cdots \supset G_n = \left\{ 1 \right\}$
-    which fulfills following conditions for every $i=0,\ldots,n-1$:
-    \begin{enumerate}
-        \item $G_{i+1} \vartriangleleft G$.
-        \item $G_i/G_{i+1} \subset Z(G/G_{i+1})$.
-    \end{enumerate}
-\end{definition}
+**정의 1**(멱영군).  $G$를 군이라고 하자. 군의 열
+$G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재하여,
+모든 $i=0,\ldots,n-1$에 대하여 다음 조건을 만족한다면, $G$는
+**멱영군(nilpotent group)** 이라고 한다.
 
-\begin{remark}
-    For every non-trivial nilpotent group $G$, $Z(G)$ is not trivial.
-\end{remark}
+1. $G_{i+1} \vartriangleleft G$.
+2. $G_i/G_{i+1} \subset \text{Z}(G/G_{i+1})$.
 
-\begin{proposition}
-    Every nilpotent group $G$ is solvable.
-\end{proposition}
+**주**. 임의의 자명하지 않은 멱영군 $G$에 대하여, $G$의 중심 $\text{Z}(G)$는
+자명하지 않다. $G_i$가 자명하지 않은 최대의 $i$에 대하여 $G_i\subset\text{Z}(G)$
+이기 때문.
 
-\begin{proof}
-    By $G_{i+1} \vartriangleleft G$, $G_{i+1} \vartriangleleft G_i$ is obvious.
-    Also, by $D(G_i) = [G_i, G_i] \subset [G_i, G] \subset G_{i+1}$,
-    $G_i/G_{i+1}$ is abelian by Proposition~\ref{PROP: 2}.
-\end{proof}
+**명제 1**. 임의의 멱영군은 [가해군](/2021/02/definition-solvable-group/)이다.
 
-\begin{proposition}
-    Every $p$-group is nilpotent group.
-\end{proposition}
+**증명**. 정의 1의 멱영군과 그 군의 열을 그대로 사용한다.
+$G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
+또한, $D(G_i) =[G_i, G_i] \subset [G_i, G] \subset G_{i+1}$가 정의 1의 조건 2로부터
+성립하므로, $G_i/G_{i+1}$은 abelian[^1]. 따라서 $G$는 가해군[^2]이다.
 
-\begin{proof}
-    Let's say $G$ is non-trivial $p$-group.
-    By class equation, it is easy to prove the center of a non-trivial $p$-group
-    is not trivial. We define a sequence of set $Z_i$ by $Z_0 = \left\{ 1 \right\}$ and
-    $Z_{i+1} = \left\{ x\in G \mid xZ_i \in Z(G/Z_i) \right\} \supset Z_i$.
-    This is possible because we can show that $Z_i$ is a normal subgroup of $G$ for every $i\in\SetN$ by induction.
-    Then, we can directly show that $Z_{i+1}/Z_i = Z(G/Z_i)$.
-    For $i\in\SetN$ which satisfies $Z_i \subsetneq G$, $G/Z_i$ is also $p$-group,
-    thus $Z_{i+1}/Z_{i}$ is not trivial. Therefore, we can get a sequence
-    $ \left\{ 1 \right\} = Z_0 \subsetneq Z_1 \subsetneq \cdots \subsetneq Z_n = G$.
-\end{proof}
+## 이 포스트에서는...
 
-\begin{example}
-    Let $G$ be a group and its order be $56$. Then, $G$ is solvable.
-    $56 = 2^3\cdot 7$, and there exists two possibilities on the number of
-    7-Sylow subgroup: 1 and 8. If there exists only one 7-Sylow subgroup $P_7$,
-    i.e. $P_7 \vartriangleleft G$, $P_7$ and $G/P_7$ is 7-group and 2-group respectively,
-    thus $G$ is solvable by Lemma~\ref{LEM: 1}.
+- **멱영군** 을 정의했다.
+- **멱영군은 가해군** 임을 보였다.
 
-    If there exist 8 7-Sylow subgroups of $G$, there are 48 elements of $G$
-    whose order is 7. (Let us say $P_7$ and $P_7'$ are not identical and both
-    7-Sylow subgroups.  If $x\in P_7 \cap P_7'$ and $x \neq 1$, $P_7 = \langle
-    x \rangle = P_7'$.  By contradiction, $P_7 \cap P_7'$ is trivial.) Thus
-    there exist at most 8 elements whose order is 1, 2, 4, or 8 on $G$.
-    This implies there is only one 2-Sylow subgroup $P_2$ i.e. $P_2 \vartriangleleft G$,
-    and thus $G$ is solvable as same as the case of $P_7 \vartriangleleft G$.
-\end{example}
+[^1]: [교환자군과 가해군](/2021/02/definition-solvable-group/#부분군으로서의-교환자군), 명제 2.
+[^2]: [교환자군과 가해군](/2021/02/definition-solvable-group/#가해군의-정의), 정리 4.
 
