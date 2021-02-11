@@ -57,7 +57,7 @@ $G$를 군, $N$을 $G$의 정규부분군이라고 하자. 다음은 모두 동�
 - $\iff$ $D(G/N)$ ($= D(G)N/N$)은 자명.
 - $\iff$ $D(G) \subset N$. $\square$
 
-**주** $G'$이 abelian, $f: G\to G'$이 준동형이라고 하자.  준동형정리에 의하여
+**주**. $G'$이 abelian, $f: G\to G'$이 준동형이라고 하자.  준동형정리에 의하여
 $G/\text{Ker}(f) \cong \text{Im}(f) \subset G'$은 abelian, 따라서,
 $D(G)\subset \text{Ker}(f)$임을 이 명제를 통하여 알 수 있으므로, 자연스러운 준동형
 $\pi: G\to G/D(G)$가 주어졌을 때, 준동형의 분해를 통해 $g\circ \pi = f$를
