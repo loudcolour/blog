@@ -43,3 +43,14 @@ $x\in A\setminus C$인 경우에도 $h(x) = g^{-1}(x)$가 문제없이 정의된
   따라서, $a \in A\setminus C$이고,
   $h(a) = g^{-1}(a) = b$이다. $\square$
 
+**주**. Bernstein 정리는 선택공리에 의존하지 않는다.
+
+## 이 포스트에서는...
+
+- **Bernstein 정리** 를 증명했다. Bernstein 정리는 집합 $A, B$에 대하여 $A\to B$인
+  단사와 $B\to A$인 단사 사상이 동시에 존재한다면($|A| \leq |B|$인 동시에 $|A|\geq |B|$라면), $A$와 $B$ 사이에는 전단사
+  사상이 존재함($|A| = |B|$)을 주장한다.
+- 이는 집합의 크기를 일반화한 개념인 **기수** 를 도입할 때, 기수의 비교가 반대칭적(antisymmetric)
+  -- 바꾸어 말하면, 두 기수 $\mathfrak a, \mathfrak b$에 대하여 $\mathfrak a\leq \mathfrak b$인 동시에
+  $\mathfrak b\leq \mathfrak a$가 성립한다면, $\mathfrak a = \mathfrak b$임을 의미한다.
+
