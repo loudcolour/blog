@@ -13,7 +13,7 @@
 수학과 학부생입니다.
 
 - **Location:** Tokyo, Japan
-- **Language:** Korean (ko-KR), English (en-US), Japanese (ja-JP)
+- **Language:** Korean, English, Japanese
 - **Interested in:** Mathematics, Linux/FLOSS, Programming -- C/C++, Rust, Python, ...
 
 Email 주소, PGP fingerprint, 그 외 연락처:
