@@ -17,7 +17,7 @@ $G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재
 **증명**. 정의 1의 멱영군과 그 군의 열을 그대로 사용한다.
 $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
 또한, $D(G_i) =[G_i, G_i] \subset [G_i, G] \subset G_{i+1}$가 정의 1의 조건 2로부터
-성립하므로, $G_i/G_{i+1}$은 abelian[^1]. 따라서 $G$는 가해군[^2]이다.
+성립하므로, $G_i/G_{i+1}$은 abelian[^1]. 따라서 $G$는 가해군[^2]이다. $\square$
 
 ## 이 포스트에서는...
 
