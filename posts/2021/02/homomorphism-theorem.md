@@ -1,5 +1,5 @@
 **정리 1**(군의 준동형정리).
-$\phi: G\to H$를 군의 준동형이라고 하자. $\pi: G\to G/\text{Ker}(\phi)$를
+$\phi: G\to H$를 [군의 준동형](/2021/02/definition-homomorphism/)이라고 하자. $\pi: G\to G/\text{Ker}(\phi)$를
 자연스러운 준동형이라고 할 때, $\phi = \psi\circ\pi$를 만족하는 준동형
 $\psi: G/\text{Ker}(\phi) \to H$가 유일하게 존재한다.
 또한, $\psi$에 의하여 $G/\text{Ker}(\phi)\cong \text{Im}(\phi)$이다.
