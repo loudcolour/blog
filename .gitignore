@@ -1,0 +1,4 @@
+tikz/*.aux
+tikz/*.pdf
+tikz/*.log
+

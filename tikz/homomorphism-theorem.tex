@@ -1,0 +1,14 @@
+\documentclass[crop,tikz]{standalone}
+\usepackage{tikz-cd}
+
+\begin{document}
+
+\begin{tikzcd}
+    G & {\textrm{Im}(\phi)} \\
+    {G/\textrm{Ker}(\phi)}
+    \arrow["\phi", from=1-1, to=1-2]
+    \arrow["\pi"', from=1-1, to=2-1]
+    \arrow["\psi"', dotted, from=2-1, to=1-2]
+\end{tikzcd}
+
+\end{document} 
