@@ -1,6 +1,6 @@
 **정리 1**(군의 제3동형정리).
 군 $G$에 대하여, $H\vartriangleleft G$, $N\vartriangleleft G$,
-$H\subset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
+$H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
 
 **증명**.
 
@@ -50,4 +50,15 @@ $\pi_N: G\to G/N$을 자연스러운 준동형이라고 할 때, 다음 두 조�
 - 2이면 1.
   $\phi = \psi_N\circ\pi_N$를 만족하는 준동형 $\psi_N$가 존재한다고 가정하면,
   $N = \text{Ker}(\pi_N) \subset \text{Ker}(\phi)$. $\square$
+
+## 이 포스트에서는...
+
+- 군 $G$와 $H, N \vartriangleleft G$, $H\supset N$을 만족하는 부분군 $H, N$이 주어질 때,
+  준동형 사상 $\phi: G/N \ni gN\mapsto gH \in G/H$에 준동형정리를 적용하여
+  제3동형정리, 즉 $(G/N)/(H/N) \cong G/H$가 성립함을 보였다.
+- 제3동형정리의 증명에서 사용한 것과 같은 사상을 이용하여, 준동형 $\phi: G\to H$와
+  $G$의 정규부분군 $N$, 그리고 자연스러운 준동형 $\pi_N: G\to G/N$이 주어질 때,
+  $\phi = \psi_N\circ\pi_N$을 만족하는 준동형 $\psi_N$이 존재할 필요충분조건이
+  $N\subset \text{Ker}(\phi)$임을 보였다.
+
 
