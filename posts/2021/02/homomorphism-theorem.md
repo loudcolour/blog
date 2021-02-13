@@ -4,7 +4,7 @@ $\phi: G\to H$를 [군의 준동형](/2021/02/definition-homomorphism/)이라고
 $\psi: G/\text{Ker}(\phi) \to H$가 유일하게 존재한다.
 또한, $\psi$에 의하여 $G/\text{Ker}(\phi)\cong \text{Im}(\phi)$이다.
 
-<img src="http://nullstellensatz.org/wp-content/uploads/2021/02/homomorphism-theorem.svg" alt="" width="150" height="150" class="aligncenter size-thumbnail wp-image-229" />
+<img src="http://nullstellensatz.org/wp-content/uploads/2021/02/homomorphism-theorem.svg" alt="" width="170" height="170" class="aligncenter size-thumbnail wp-image-229" />
 
 **증명**.
 $N = \text{Ker}(\phi)$로 두자. $\psi(gN) = \phi(g)$와 같이 $\psi$를 정의할 때,
