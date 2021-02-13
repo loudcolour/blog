@@ -3,10 +3,11 @@
 **정의 1**(교환자군). $G$를 [군](/2021/02/definition-group/)이라고 하자.
 
 1. $x,y\in G$에 대하여, $[x,y] \coloneqq xyx^{-1}y^{-1}\in G$를 $x,y$의
-   **교환자(commutator)**라고 한다. 또한, $G$의 부분군 $H, K\subset G$에
+   **교환자(commutator)**라고 한다.
+2. $G$의 부분군 $H, K\subset G$에
    대하여, $\left\{ [x,y] \mid x\in H, y\in K \right\}$에 의해 [생성되는](/2021/02/definition-subgroup/#부분집합에-의하여-생성되는-군) 군을
    $[H,K]$와 같이 쓰기로 한다.
-2. $D(G) \coloneqq [G,G]$를 $G$의 **교환자군(commutator group)**이라고 한다.
+3. $D(G) \coloneqq [G,G]$를 $G$의 **교환자군(commutator group)**이라고 한다.
 
 **주**. $G$를 군이라고 할 때:
 
