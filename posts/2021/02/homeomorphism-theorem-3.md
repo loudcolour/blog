@@ -37,7 +37,7 @@ $\pi_N: G\to G/N$을 자연스러운 준동형이라고 할 때, 다음 두 조�
 
 **증명**.
 
-<img src="http://nullstellensatz.org/wp-content/uploads/2021/02/homomorphism-decomposition.svg" alt="" width="180" height="180" class="aligncenter size-thumbnail wp-image-247" />
+<img src="http://nullstellensatz.org/wp-content/uploads/2021/02/homomorphism-decomposition.svg" alt="" width="190" height="190" class="aligncenter size-thumbnail wp-image-247" />
 
 - 1이면 2. 제3동형정리에서 사용한 준동형사상과 같은
   준동형 $f: G/N\to G/\text{Ker}(\phi)$가 존재하는 것을 알 수 있다.
