@@ -31,12 +31,12 @@
 - 잉여류, Lagrange 정리, Fermat 소정리
 - [군의 준동형](/2021/02/definition-homomorphism/)
 - 정규부분군, 잉여군
+- [정규부분군을 포함하는 부분군](/2021/02/subgroup-containing-normal-subgroup/)
 - 군의 곱, 반곱
 - 중국잉여정리 (CRT)
 - [군의 준동형정리](/2021/02/homomorphism-theorem/)
     - [군의 제2동형정리](/2021/02/homeomorphism-theorem-2/)
     - [군의 제3동형정리, 준동형의 분해](/2021/02/homeomorphism-theorem-3/)
-    - 부분군의 대응
 - [군의 작용, Cayley 정리](/2021/02/definition-action/)
 - 궤도, 안정화군, 추이적인 작용
 - 정규화군, 중심화군
