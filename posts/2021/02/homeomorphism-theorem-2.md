@@ -3,8 +3,8 @@ $H, N$을 군 $G$의 부분군, 특히 $N \vartriangleleft G$라고 하자. 이 
 
 1. $HN = NH$이다.
 2. $HN$은 $G$의 부분군이다.
-3. $H\cap N \vartriangleleft H$, $N\vartriangleleft HN$
-4. $H/H\cap N\cong HN/N$
+3. $H\cap N \vartriangleleft H$, $N\vartriangleleft HN$.
+4. $H/H\cap N\cong HN/N$.
 
 **증명**.
 
