@@ -1,5 +1,6 @@
 **정리 1**(군의 제2동형정리).
-$H, N$을 군 $G$의 부분군, 특히 $N \vartriangleleft G$라고 하자. 이 때, 다음 사실이 성립한다.
+$H, N$을 [군](/2021/02/definition-group/) $G$의 [부분군](/2021/02/definition-subgroup/),
+특히 [$N \vartriangleleft G$](/2021/02/normal-subgroup/)라고 하자. 이 때, 다음 사실이 성립한다.
 
 1. $HN = NH$이다.
 2. $HN$은 $G$의 부분군이다.
@@ -29,7 +30,7 @@ $H, N$을 군 $G$의 부분군, 특히 $N \vartriangleleft G$라고 하자. 이 
       [준동형정리](/2021/02/homomorphism-theorem/)에 의하여,
       $H/H\cap N = H/\text{Ker}(\phi) \cong \text{Im}(\phi) = HN/N$. $\square$
 
-**주**. 2가 성립하는 것은 $\pi: G\to G/N$을 자연스러운 준동형이라고 할 때,
+**주**. 2가 성립하는 것은 $\pi: G\to G/N$을 [자연스러운 준동형](/2021/02/normal-subgroup/#잉여군의-정의)이라고 할 때,
 $NH= \pi^{-1}(\pi(H))$가 성립하는 것으로부터도 보일 수 있다.  (준동형의 의한
 부분군의 상과 역상은 각 집합의 부분군이므로. 이를 확인하는 것은 연습문제)
 

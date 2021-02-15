@@ -1,5 +1,5 @@
 **정리 1**(군의 제3동형정리).
-군 $G$에 대하여, $H\vartriangleleft G$, $N\vartriangleleft G$,
+[군](/2021/02/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/2021/02/normal-subgroup/), $N\vartriangleleft G$,
 $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
 
 **증명**.
@@ -9,7 +9,7 @@ $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
   $gN = g'N$일 때 $\phi(gN) = \phi(g'N)$이 성립하는지를 확인하면 된다.
   $gN=g'N$이라면, $g^{-1}g'\in N\subset H$이므로,
   $\phi(gN) = gH = g'H = \phi(g'N)$이 성립, $\phi$는 well-defined이다.
-- 다음으로, $\phi$가 준동형이라는 것을 보이자.
+- 다음으로, $\phi$가 [준동형](/2021/02/definition-homomorphism/)이라는 것을 보이자.
   $g_1, g_2\in G$,
   $g_1N, g_2N\in G/N$에 대하여,
   $\phi((g_1N)(g_2N)) = \phi(g_1g_2N) = g_1g_2H = (g_1H)(g_2H) = \phi(g_1N)\phi(g_2N)$

@@ -4,7 +4,7 @@
 
 1. $x,y\in G$에 대하여, $[x,y] \coloneqq xyx^{-1}y^{-1}\in G$를 $x,y$의
    **교환자(commutator)**라고 한다.
-2. $G$의 부분군 $H, K\subset G$에
+2. $G$의 [부분군](/2021/02/definition-subgroup/) $H, K\subset G$에
    대하여, $\left\{ [x,y] \mid x\in H, y\in K \right\}$에 의해 [생성되는](/2021/02/definition-subgroup/#부분집합에-의하여-생성되는-군) 군을
    $[H,K]$와 같이 쓰기로 한다.
 3. $D(G) \coloneqq [G,G]$를 $G$의 **교환자군(commutator group)**이라고 한다.
@@ -23,7 +23,7 @@
 
 ### 부분군으로서의 교환자군
 
-군 $G$와 그 부분군 $H, N$이 주어지고, 특히 $N$은 $G$의 정규부분군이라고 하자.
+군 $G$와 그 부분군 $H, N$이 주어지고, 특히 $N$은 $G$의 [정규부분군](/2021/02/normal-subgroup/)이라고 하자.
 이 때,
 
 $$
@@ -58,10 +58,11 @@ $G$를 군, $N$을 $G$의 정규부분군이라고 하자. 다음은 모두 동�
 - $\iff$ $D(G/N)$ ($= D(G)N/N$)은 자명.
 - $\iff$ $D(G) \subset N$. $\square$
 
-**주**. $G'$이 abelian, $f: G\to G'$이 준동형이라고 하자.  준동형정리에 의하여
+**주**. $G'$이 abelian, $f: G\to G'$이 [준동형](/2021/02/definition-homomorphism/)이라고 하자.
+[준동형정리](/2021/02/homomorphism-theorem/)에 의하여
 $G/\text{Ker}(f) \cong \text{Im}(f) \subset G'$은 abelian, 따라서,
 $D(G)\subset \text{Ker}(f)$임을 이 명제를 통하여 알 수 있으므로, 자연스러운 준동형
-$\pi: G\to G/D(G)$가 주어졌을 때, 준동형의 분해를 통해 $g\circ \pi = f$를
+$\pi: G\to G/D(G)$가 주어졌을 때, [준동형의 분해](/2021/02/homeomorphism-theorem-3/#준동형의-분해)를 통해 $g\circ \pi = f$를
 만족하는 $g: G/D(G) \to G'$가 단 하나 존재하는 것을 알 수 있다.
 
 ## 가해군의 정의
