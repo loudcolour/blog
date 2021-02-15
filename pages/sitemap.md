@@ -30,8 +30,9 @@
 - 원소의 위수
 - 잉여류, Lagrange 정리, Fermat 소정리
 - [군의 준동형](/2021/02/definition-homomorphism/)
-- 정규부분군, 잉여군
-- [정규부분군을 포함하는 부분군](/2021/02/subgroup-containing-normal-subgroup/)
+- [정규부분군, 잉여군](/2021/02/normal-subgroup/)
+    - [정규부분군을 포함하는 부분군](/2021/02/subgroup-containing-normal-subgroup/)
+    - 정규부분군의 생성
 - 군의 곱, 반곱
 - 중국잉여정리 (CRT)
 - [군의 준동형정리](/2021/02/homomorphism-theorem/)
