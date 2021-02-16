@@ -78,5 +78,15 @@ $G$의 [부분군](/2021/02/definition-subgroup/) $H$가 존재한다고 하자.
 $D_{2n} = \langle t,r \mid t^n = r^2 = 1, rtr = t^{-1} \rangle$에 대해서,
 $D_{2n} \cong \langle t \rangle \rtimes \langle r \rangle$.
 
+## 이 포스트에서는...
+
+- 군 $N, H$와 준동형 $\Phi: H \ni h \mapsto \phi_h \in \text{Aut}(N)$이 주어질 때,
+  집합 $N\times H$에 $(n,h)(n',h') = (n\phi_h(n'), hh')$와 같이 연산을 부여하면
+  군을 이루는 것을 보였다. 이를 $N\rtimes_\Phi H$ 혹은 $N\rtimes H$와 같이 나타내어
+  **반직곱**으로 부르기로 했다.
+- 군 $G$에 대하여, $N\vartriangleleft G$이고, $G$의 부분군 $H$가 $G/N$의 완전대표계일 때,
+  내부자기동형으로부터 유도되는 준동형 $\Phi: H\ni h\mapsto \phi_h\in\text{Aut}(N)$을 이용하여
+  반직곱을 정의하면, $G\cong N\rtimes H$가 성립함을 보였다.
+
 [^1]: 구체적으로는, $g\in G$에 대하여, $gh^{-1}\in N$인 $h$가 (단 하나) 존재하고,
 $gh^{-1} = n$이라고 하면, $g = nh$. 따라서 $f$는 전사.
