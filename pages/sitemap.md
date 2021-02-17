@@ -33,7 +33,7 @@
 - [정규부분군, 잉여군](/2021/02/normal-subgroup/)
     - [정규부분군을 포함하는 부분군](/2021/02/subgroup-containing-normal-subgroup/)
     - 정규부분군의 생성
-- 군의 직곱
+- [군의 직곱](/2021/02/direct-product-of-groups/)
     - 중국잉여정리 (CRT)
     - [군의 반직곱](/2021/02/semidirect-product-of-groups/)
 - [군의 준동형정리](/2021/02/homomorphism-theorem/)
