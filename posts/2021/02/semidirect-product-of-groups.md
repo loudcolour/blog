@@ -69,6 +69,10 @@ $G$의 [부분군](/2021/02/definition-subgroup/) $H$가 존재한다고 하자.
       $f$는 단사.
     - $H$가 $G/N$의 완전대표계이므로 $f$는 전사이다[^1]. 따라서, $f$는 동형. $\square$
 
+**주**. 군 $G$가 유한군이라면, 부분군 $H,N$에 대하여 $N\vartriangleleft G$,
+$H\cap N = \left\{ 1_G \right\}$, $|H|\cdot|N| = |G|$의 조건만으로도 3의 결론을 얻기에
+충분하다[^2].
+
 **예 1**. $A_n \vartriangleleft\mathfrak S_n$ 이고, $\mathfrak S_2$를 $\mathfrak S_n$의
 부분군으로 볼 때, 이는 $\mathfrak S_n / A_n$의 완전대표계이므로, 내부자기동형으로부터
 유도되는 준동형 $\Phi: \mathfrak S_2 \ni \sigma \mapsto \phi_{\sigma} \in \text{Aut}(A_n)$에
@@ -90,3 +94,9 @@ $D_{2n} \cong \langle t \rangle \rtimes \langle r \rangle$.
 
 [^1]: 구체적으로는, $g\in G$에 대하여, $gh^{-1}\in N$인 $h$가 (단 하나) 존재하고,
 $gh^{-1} = n$이라고 하면, $g = nh$. 따라서 $f$는 전사.
+[^2]: [군의 제2동형정리](/2021/02/homeomorphism-theorem-2/)로 부터,
+$H \cong H/(H\cap N) \cong HN/N$이다.
+이 때, $HN$은 유한군 $G$의 부분군이고, $|HN| = |H|\cdot|N| = |G|$으로부터 $G = HN$.
+따라서, $g\in G$에 대하여 $h^{-1}g \in N$인 $h\in H$가 단 하나 존재하므로 $H$는
+완전대표계, 동시에 $\pi|_H$에 의하여 $H \cong G/N$임을 알 수 있다.
+
