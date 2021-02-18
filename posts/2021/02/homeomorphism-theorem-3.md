@@ -1,6 +1,6 @@
 **정리 1**(군의 제3동형정리).
 [군](/2021/02/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/2021/02/normal-subgroup/), $N\vartriangleleft G$,
-$H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
+$H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다. ---
 
 **증명**.
 
@@ -24,7 +24,7 @@ $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
   $(G/N)/(H/N) = (G/N)/ \text{Ker}(\phi) \cong \text{Im}(\phi) = G/H$가 성립하는 것을 알 수 있다. $\square$
 
 **예 1**.
-제3동형정리에 의하여, $(\SetZ/12\SetZ)/(3\SetZ/12\SetZ)\cong \SetZ/3\SetZ$ 임을 쉽게 확인할 수 있다.
+제3동형정리에 의하여, $(\SetZ/12\SetZ)/(3\SetZ/12\SetZ)\cong \SetZ/3\SetZ$ 임을 쉽게 확인할 수 있다. ---
 
 ## 준동형의 분해
 
@@ -33,7 +33,7 @@ $\phi: G\to H$를 군의 준동형, $N\vartriangleleft G$이고
 $\pi_N: G\to G/N$을 자연스러운 준동형이라고 할 때, 다음 두 조건은 동치이다.
 
 1. $N\subset \text{Ker}(\phi)$.
-2. $\phi = \psi_N\circ\pi_N$를 만족하는 준동형 $\psi_N: G/N\to H$가 존재한다.
+2. $\phi = \psi_N\circ\pi_N$를 만족하는 준동형 $\psi_N: G/N\to H$가 존재한다. ---
 
 **증명**.
 

@@ -1,15 +1,18 @@
 **정의 1**. $G, H$를 [군](/2021/02/definition-group/)이라고 하자.
 집합 $G\times H$에 다음과 같은 연산을 부여하면,
-$G\times H$는 군의 공리를 만족하는 것을 쉽게 확인할 수 있다. (연습문제) 이와 같은
-군 $G\times H$를 $G$와 $H$의 **직곱(direct product)**라고 한다.
+$G\times H$는 군의 공리를 만족하는 것을 쉽게 확인할 수 있다. (연습문제)
 
 $$
 (g,h)(g',h') = (gg', hh')
 $$
 
+이와 같은
+군 $G\times H$를 $G$와 $H$의 **직곱(direct product)**라고 한다. ---
+
+
 **명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/2021/02/normal-subgroup/)이고,
 $H\cap K = \left\{ 1_G \right\}$,
-$G = HK$라고 하면, $G \cong H\times K$이다.
+$G = HK$라고 하면, $G \cong H\times K$이다. ---
 
 **증명**.
 

@@ -2,14 +2,14 @@
 
 **정의 1**($p$-군).
 $G$를 유한군이라고 하자. $|G| = p^e$ ($p$는 소수, $e\in\SetZ_{>0}$) 일 때,
-$G$를 **$p$-군**이라고 한다.
+$G$를 **$p$-군**이라고 한다. ---
 
 ## $p$-군의 성질
 
 **명제 1**. $G$를 $p$-군이라고 하자. 이 때,
 $\left\{ 1_G \right\} \neq N \vartriangleleft G$
 라고 할 때, $N\cap \text{Z}(G) \neq \left\{ 1_G \right\}$이다.
-특히, 임의의 $p$-군 $G$에 대하여, $\text{Z}(G) \neq \left\{ 1_G \right\}$ 이다.
+특히, 임의의 $p$-군 $G$에 대하여, $\text{Z}(G) \neq \left\{ 1_G \right\}$ 이다. ---
 
 **증명**. $\phi: G\times N \ni (g,n)\mapsto gng^{-1} \in N$과 같은 [작용](/2021/02/definition-action/)을 생각한다.
 $|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)와
@@ -22,7 +22,7 @@ $|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)
 $p^a =|N| = 1 +p^{b_1} + \cdots + p^{b_m}$이다.
 하지만 양변을 $p$로 나눈 나머지가 일치하지 않으므로 이는 모순. $\square$
 
-**정리 2**. 임의의 $p$-군은 [멱영군](/2021/02/definition-nilpotent-group/)이다.
+**정리 2**. 임의의 $p$-군은 [멱영군](/2021/02/definition-nilpotent-group/)이다. ---
 
 **증명**.
 $G$를 $p$-군이라고 하자.
@@ -45,7 +45,7 @@ $$
 이다. 따라서 멱영군의 정의에 의하여 $G$는 멱영군.  $\square$
 
 **명제 3**. $G$를 유한군이라고 하자. $|G| = p^2$ ($p$는 소수) 라고 하면,
-$G$는 abelian이다.
+$G$는 abelian이다. ---
 
 **증명**. $G$가 abelian이 아니라고, 즉, $\text{Z}(G) \subsetneq G$라고 가정하자.
 명제 1에 의하여 $1 < |\text{Z}(G)| < |G| = p^2$, Lagrange 정리에 의하여 $|\text{Z}(G)| = p$
@@ -57,7 +57,7 @@ $\text{Z}_G(x) = G$이다. 이는 $x\in \text{Z}(G)$를 의미하므로, 모순.
 
 ## 이 포스트에서는...
 
-- **$p$-군**을 정의했다.
+- 유한군 $G$에 대하여, $|G| = p^e$ ($p$는 소수, $e\in\SetZ_{>0}$) 일 때, $G$는 **$p$-군**이라고 정의했다.
 - $G$가 $p$-군이라면, $\text{Z}(G)\neq \left\{ 1_G \right\}$임을 보였다. 이를 이용하여:
     - **임의의 $p$-군은 멱영군**임을 보였다. 따라서, "$p$-군 $\subset$ 멱영군 $\subset$ 가해군
       $\subset$ 비단순군"의 함의 관계가 성립함을 알 수 있다.

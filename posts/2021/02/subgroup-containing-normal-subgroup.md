@@ -9,7 +9,7 @@ $\phi$와 $\psi$가 존재하며,
 - $\phi: X \ni H \mapsto \pi^{-1}(H) \in Y$
 - $\psi: Y \ni K \mapsto \pi(K) \in X$
 
-$\phi$와 $\psi$는 서로의 역사상이다. 따라서 $X$와 $Y$간에는 일대일 대응이 존재한다.
+$\phi$와 $\psi$는 서로의 역사상이다. 따라서 $X$와 $Y$간에는 일대일 대응이 존재한다. ---
 
 **증명**.  먼저 $H\in X$에 대하여, $\pi^{-1}(H)\in Y$임을 보이자.
 $1_{G/N} \in H$ 이므로, $N = \pi^{-1}(\left\{ 1_{G/N} \right\}) \subset \pi^{-1}(H)$이다.

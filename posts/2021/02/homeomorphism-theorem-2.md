@@ -5,7 +5,7 @@ $H, N$을 [군](/2021/02/definition-group/) $G$의 [부분군](/2021/02/definiti
 1. $HN = NH$이다.
 2. $HN$은 $G$의 부분군이다.
 3. $H\cap N \vartriangleleft H$, $N\vartriangleleft HN$.
-4. $H/H\cap N\cong HN/N$.
+4. $H/H\cap N\cong HN/N$. ---
 
 **증명**.
 
@@ -32,13 +32,13 @@ $H, N$을 [군](/2021/02/definition-group/) $G$의 [부분군](/2021/02/definiti
 
 **주**. 2가 성립하는 것은 $\pi: G\to G/N$을 [자연스러운 준동형](/2021/02/normal-subgroup/#잉여군의-정의)이라고 할 때,
 $NH= \pi^{-1}(\pi(H))$가 성립하는 것으로부터도 보일 수 있다.  (준동형의 의한
-부분군의 상과 역상은 각 집합의 부분군이므로. 이를 확인하는 것은 연습문제)
+부분군의 상과 역상은 각 집합의 부분군이므로. 이를 확인하는 것은 연습문제) ---
 
 **예 1**.
 $G = \SetZ$, $H = m\SetZ$, $N = n\SetZ$로 두자.
 우선 $H$와 $N$ 모두 가환군의 부분군이므로 정규부분군이다.
 따라서 제2동형정리를 이용하면 $G = \gcd(m,n)$, $L = \text{lcm}(m,n)$으로 하여
-$m\SetZ/L\SetZ = H/H\cap N \cong HN / N = G\SetZ/n\SetZ$이 성립하는 것을 알 수 있다.
+$m\SetZ/L\SetZ = H/H\cap N \cong HN / N = G\SetZ/n\SetZ$이 성립하는 것을 알 수 있다. ---
 
 ## 이 포스트에서는...
 

@@ -6,16 +6,16 @@ $G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재
 **멱영군(nilpotent group)**이라고 한다.
 
 1. $G_{i+1} \vartriangleleft G$.
-2. $G_i/G_{i+1} \subset \text{Z}(G/G_{i+1})$.
+2. $G_i/G_{i+1} \subset \text{Z}(G/G_{i+1})$. ---
 
 **주**.
 
 1. 임의의 abelian 군은 멱영군이다.
 2. 임의의 자명하지 않은 멱영군 $G$에 대하여, $G$의 중심 $\text{Z}(G)$는
 자명하지 않다. $G_i$가 자명하지 않은 최대의 $i$에 대하여 $G_i\subset\text{Z}(G)$
-이기 때문.
+이기 때문. ---
 
-**명제 1**. 임의의 멱영군은 [가해군](/2021/02/definition-solvable-group/)이다.
+**명제 1**. 임의의 멱영군은 [가해군](/2021/02/definition-solvable-group/)이다. ---
 
 **증명**. 정의 1의 멱영군과 그 군의 열을 그대로 사용한다.
 $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
