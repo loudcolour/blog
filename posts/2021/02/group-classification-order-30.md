@@ -40,8 +40,8 @@ $G \cong N\rtimes H$임을 알 수 있다. 따라서 준동형 $\Phi$로 적합�
 $H$는 위수 2의 부분군이다. 따라서 $H = \left\{ 1_G, h \right\}$라고 할 때,
 $\Phi(h) = \phi_h \colon n\mapsto hnh^{-1}$를 $\text{Aut}(N)$으로부터 하나 정하면, $\Phi$가
 특정된다. 이 때, $h$는 위수 2인 원소이므로, $\phi_h$의 위수는 1이거나
-2이다. $N$은 [위수 15인 순회군](/2021/02/group-classification-order-15)이므로,
-[$\text{Aut}(N) \cong (\SetZ/15\SetZ)^\times$](/2021/02/automorphism-cyclic-group).
+2이다. $N$은 [위수 15인 순회군](/2021/03/group-classification-order-15)이므로,
+[$\text{Aut}(N) \cong (\SetZ/15\SetZ)^\times$](/2021/03/automorphism-cyclic-group).
 위수 1이거나 2인 $(\SetZ/15\SetZ)^\times$의 원소는
 $\overline 1, \overline 4, \overline{11}, \overline{14}$이다.
 
