@@ -139,8 +139,8 @@
 
 ## Analysis
 
-- [Young 부등식](2021/03/young-inequality)
-- Hölder 부등식
+- [Young 부등식](/2021/03/young-inequality)
+- [Hölder 부등식](/2021/03/holder-inequality/)
 
 ### Fourier Analysis
 ### Real Analysis
