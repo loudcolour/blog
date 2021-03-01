@@ -128,11 +128,11 @@
 ### Metric Space
 
 - 거리공간의 정의
-- 노름공간의 정의
+- [노름공간의 정의](/2021/03/definition-norm-space)
 - 내적공간의 정의
 - 거리공간과 콤팩트성
 - Hilbert 공간
-- Minkowski 부등식, Minkowski 공간
+- Minkowski 부등식
 - Banach 공간
 - 거리공간의 완비화
 - Urysohn 거리화

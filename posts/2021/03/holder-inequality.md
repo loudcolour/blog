@@ -4,7 +4,7 @@ ${1}/{p}+{1}/{q} = 1$를 만족하는 파라미터 $p,q\in (1,\infty)$에 대하
 
 $$
 \sum_{n=0}^{\infty} |a_nb_n| \leq \left( \sum_{n=0}^{\infty} |a_n|^p
-\right)^{\frac{1}{p}}\left( \sum_{n=0}^{\infty} |b_n|^q \right)^{\frac{1}{q}}
+\right)^{{1}/{p}}\left( \sum_{n=0}^{\infty} |b_n|^q \right)^{{1}/{q}}.
 $$
 
 또한, 등호는
