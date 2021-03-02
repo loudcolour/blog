@@ -132,7 +132,6 @@
 - 내적공간의 정의
 - 거리공간과 콤팩트성
 - Hilbert 공간
-- Minkowski 부등식
 - Banach 공간
 - 거리공간의 완비화
 - Urysohn 거리화
@@ -141,6 +140,7 @@
 
 - [Young 부등식](/2021/03/young-inequality)
 - [Hölder 부등식](/2021/03/holder-inequality/)
+- [Minkowski 부등식](/2021/03/minkowski-inequality)
 
 ### Fourier Analysis
 ### Real Analysis
