@@ -2,7 +2,7 @@
 
 ## Set Theory
 
-- [ ]사상, 단사, 전사, 전단사
+- [ ] 사상, 단사, 전사, 전단사
 - [x] [Bernstein 정리: 양방향의 단사 사상에 의한 전단사 사상의 존재](https://nullstellensatz.org/2021/02/bernstein/)
 - [ ] Cantor 대각선논법
 - [ ] 동치관계, 동치류
