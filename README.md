@@ -35,7 +35,6 @@
     - [x] [정규부분군을 포함하는 부분군](https://nullstellensatz.org/2021/02/subgroup-containing-normal-subgroup/)
     - [ ] 정규부분군의 생성
 - [x] [군의 직곱](https://nullstellensatz.org/2021/02/direct-product-of-groups/)
-    - [ ] 중국잉여정리 (CRT)
     - [x] [군의 반직곱](https://nullstellensatz.org/2021/02/semidirect-product-of-groups/)
 - [x] [군의 준동형정리](https://nullstellensatz.org/2021/02/homomorphism-theorem/)
     - [x] [군의 제2동형정리](https://nullstellensatz.org/2021/02/homeomorphism-theorem-2/)
