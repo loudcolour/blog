@@ -59,7 +59,6 @@
 - [ ] Sylow 정리에 관한 연습문제
     - [ ] 위수 8인 군의 분류
     - [ ] 위수 12인 군의 분류
-    - [ ] 위수 12인 군의 가해성
     - [ ] 위수 15인 군의 분류
     - [x] [위수 30인 군의 분류](https://nullstellensatz.org/2021/02/group-classification-order-30/)
 
