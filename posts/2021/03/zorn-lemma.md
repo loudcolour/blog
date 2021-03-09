@@ -60,7 +60,7 @@ $f(\Delta(W_\infty, a)) = f(\Delta(W, a)) = a$이 성립, $W_\infty \in \mathfra
 이다.)
 
 [^2]: $w < x_0$인 $x_0\in X$가 존재한다고 가정하자.
-그렇다면, $\Delta_\infty \coloneqq \left\{ x\in X \,|\, \forall b\in W_\infty [b < x] \right\}\neq\emptyset$
+그렇다면, $\Delta_\infty \coloneqq \left\{ x\in X \,|\, \forall b\in W_\infty;b<x\right\}\neq\emptyset$
 이고, $W_\infty' = W_\infty\cup \left\{ f(\Delta_\infty) \right\}$으로 두면,
 $W_\infty' \supsetneq W_\infty$인 동시에 $W_\infty' \in \mathfrak{F}$임을 알 수 있다.
 하지만, 이는 $W_\infty = \bigcup_{W\in\mathfrak{F}}W$에 반하는 결과이므로,
