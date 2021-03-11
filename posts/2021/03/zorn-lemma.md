@@ -51,10 +51,11 @@ $x_0\coloneqq f(\Delta_\infty)$으로 두면, $W_\infty'=W_\infty\cup\left\{ x_0
 은 정렬집합이고, $W_\infty'\langle x_0 \rangle = W_\infty$이다. 따라서,
 $x_0=f(\Delta_\infty)=f(\Delta(W_\infty',x_0))$이므로, $W_\infty'\in\mathfrak F$
 이다.  하지만, $W_\infty\subsetneq W_\infty'$이고, 이는 $W_\infty$의
-정의로부터 모순임을 알 수 있으므로, $w\in X$는 $X$의 극대원소이다.$\square$
+정의로부터 모순임을 알 수 있으므로, $w\in X$는 $X$의 극대원소이다. $\square$
 
 **주**.  위 증명에서 $W_\infty$의 상계인 $w\in X$에 대하여 $w\in W_\infty$,
-$w=\max W_\infty$가 성립함을 쉽게 알 수 있다. ---
+$w=\max W_\infty$가 성립함을 쉽게 알 수 있다. 만약 그렇지 않다고 가정하면,
+$w\in \Delta_\infty$이게 되어, 증명에서 보인 것과 같은 모순이 발생하기 때문이다. ---
 
 ## 이 포스트에서는...
 

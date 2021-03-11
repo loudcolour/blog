@@ -6,7 +6,7 @@
 - [x] [Bernstein 정리: 양방향의 단사 사상에 의한 전단사 사상의 존재](https://nullstellensatz.org/2021/02/bernstein/)
 - [ ] Cantor 대각선논법
 - [ ] 동치관계, 동치류
-- [ ] 순서관계
+- [x] [순서](https://nullstellensatz.org/2021/03/order/)
     - [ ] 정렬순서
     - [ ] 순서수
 - [ ] 선택공리
