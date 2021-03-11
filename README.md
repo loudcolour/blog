@@ -10,7 +10,7 @@
     - [ ] 정렬순서
     - [ ] 순서수
 - [ ] 선택공리
-    - [ ] [Zorn 보조정리](https://nullstellensatz.org/2021/03/zorn-lemma/)
+    - [x] [Zorn 보조정리](https://nullstellensatz.org/2021/03/zorn-lemma/)
     - [ ] Tukey 보조정리
     - [ ] Kuratowski 보조정리
     - [ ] 정렬가능정리, 기수 비교의 Trichotomy
