@@ -104,8 +104,8 @@ $\|\vec a\|_\infty \coloneqq \max_{1\leq i\leq n} |a_i|$
 
 ## 이 포스트에서는...
 
-- **노름**과 **노름 공간**을 정의했다.
-- Cauchy-Schwarz 부등식을 이용하여, 노름 공간의 예로 **Euclidean 공간**을 들었다.
-- Minkowski 부등식을 이용하여, 노름 공간의 예로 **Minkowski 공간**을 들었다.
+- **노름**과 **노름공간**을 정의했다.
+- Cauchy-Schwarz 부등식을 이용하여, 노름공간의 예로 **Euclidean 공간**을 들었다.
+- Minkowski 부등식을 이용하여, 노름공간의 예로 **Minkowski 공간**을 들었다.
 - 노름의 예로 **최댓값 노름**을 들었다.
 
