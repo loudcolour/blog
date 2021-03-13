@@ -15,7 +15,7 @@ $G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재
 자명하지 않다. $G_i$가 자명하지 않은 최대의 $i$에 대하여 $G_i\subset\text{Z}(G)$
 이기 때문. ---
 
-**명제 1**. 임의의 멱영군은 [가해군](/2021/02/definition-solvable-group/)이다. ---
+**명제 1**. 임의의 멱영군은 [가해군](/definition-solvable-group/)이다. ---
 
 **증명**. 정의 1의 멱영군과 그 군의 열을 그대로 사용한다.
 $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
@@ -28,6 +28,6 @@ $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
 - **멱영군은 가해군**임을 보였다. 따라서, "abelian 군 $\subset$ 멱영군 $\subset$ 가해군
   $\subset$ 비단순군"의 함의 관계가 성립함을 알 수 있다.
 
-[^1]: [교환자군과 가해군](/2021/02/definition-solvable-group/#부분군으로서의-교환자군), 명제 2.
-[^2]: [교환자군과 가해군](/2021/02/definition-solvable-group/#가해군의-정의), 정리 4.
+[^1]: [교환자군과 가해군](/definition-solvable-group/#부분군으로서의-교환자군), 명제 2.
+[^2]: [교환자군과 가해군](/definition-solvable-group/#가해군의-정의), 정리 4.
 

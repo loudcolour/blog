@@ -10,7 +10,7 @@ $\SetR$ 혹은 $\SetC$ 상의 벡터공간 $V$에 대하여, 사상 $\|\cdot\|\c
 
 $\SetR$ 혹은 $\SetC$ 상의 벡터공간 $V$에 대하여 노름 $\|\cdot\|$이 주어질 때,
 함수 $d: V\times V\ni (\vec x,\vec y) \mapsto \|\vec x-\vec y\|\in\SetR$를
-정의하면, $d$는 $V$ 상의 [거리함수](/2021/03/definition-metric-space)임을 확인할 수 있다. 이를 노름 $\|\cdot\|$에 의한
+정의하면, $d$는 $V$ 상의 [거리함수](/definition-metric-space)임을 확인할 수 있다. 이를 노름 $\|\cdot\|$에 의한
 **자연스러운 거리**라고 한다. 따라서, 노름공간은 자연스러운 거리에 의하여
 거리공간으로 생각할 수 있다.
 
@@ -63,8 +63,8 @@ $$
 성립한다는 것을 알 수 있다.  이 조건이 $\vec a$와 $\vec b$가 선형종속인 것과
 동치인 것은 간단히 확인할 수 있다. $\square$
 
-이외에도, [Hölder 부등식](/2021/03/holder-inequality/)이나,
-[내적의 공리](/2021/03/definition-inner-product-space)로부터 Cauchy-Schwarz 부등식이
+이외에도, [Hölder 부등식](/holder-inequality/)이나,
+[내적의 공리](/definition-inner-product-space)로부터 Cauchy-Schwarz 부등식이
 얻어진다.
 
 **예 1**(Euclidean 공간). 점 $\vec a = (a_1, \ldots, a_n)\in \SetR^n$에 대하여,
@@ -91,7 +91,7 @@ $\|\vec a\|_p\coloneqq (|a_1|^p + \cdots + |a_n|^p)^{1/p}$와 같이 사상 $\|\
 정의하면, 정의 1의 노름의 공리 1,2를 만족하고 있는 것은 쉽게 확인할 수 있다.
 또한, $\vec a = (a_1,\ldots,a_n), \vec b = (b_1,\ldots,b_n)\in\SetR^n$에 대해,
 $\|\vec a + \vec b\|_p\leq \|\vec a\|_p + \|\vec b\|_p$가 성립하는 것은
-[Minkowski 부등식](/2021/03/minkowski-inequality)으로부터 확인할 수 있다.
+[Minkowski 부등식](/minkowski-inequality)으로부터 확인할 수 있다.
 따라서 $\|\cdot\|_p$은 $\SetR^n$ 상의 노름이다. 이를 **Minkowski 노름**이라고 하며,
 이 노름(혹은 이 노름에 의한 자연스러운 거리)이 부여된 벡터공간 $\SetR^n$을
 **Minkowski 공간**이라고 한다. ---

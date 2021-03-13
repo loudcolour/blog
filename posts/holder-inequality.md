@@ -15,7 +15,7 @@ $\exists (\lambda,\mu)\in\SetR_{\geq 0}^2\setminus \left\{ (0,0) \right\}, \fora
 우변의 급수가 수렴하므로, $\|a_n\|_p \coloneqq \left(\sum_{n=0}^{\infty} |a_n|^p\right)^{{1}/{p}}$,
 $\|b_n\|_q \coloneqq \left( \sum_{n=0}^{\infty} |b_n|^q \right)^{{1}/{q}}$로 두도록 하자.
 $\|a_n\|_p=0$ 혹은 $\|b_n\|_q=0$ 인 경우, 부등식이 성립하는 것은 분명하므로, $\|a_n\|_p, \|b_n\|_q>0$인 경우만을 생각하도록 하자.
-[Young 부등식](/2021/03/young-inequality/)에 의하여
+[Young 부등식](/young-inequality/)에 의하여
 각 $i\in\SetN$에 대하여
 
 $$

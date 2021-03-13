@@ -40,7 +40,7 @@ $\psi_g\circ \psi_{g^{-1}} = \text{id}_X$가 성립하는 것을 정의 1의 조
 사상임을 알 수 있다. $\square$
 
 위 명제에서 사용한 기호를 재활용하여, $\Phi: G\ni g\mapsto \psi_g\in\text{Bij}(X)$
-로 사상 $\Phi$를 정의하면, $\Phi$는 [준동형](/2021/02/definition-homomorphism/)이라는 것을 쉽게 확인할 수 있다. (연습문제)
+로 사상 $\Phi$를 정의하면, $\Phi$는 [준동형](/definition-group-homomorphism/)이라는 것을 쉽게 확인할 수 있다. (연습문제)
 역으로, 임의의 $G\to \text{Bij}(X)$인 준동형이 주어졌을 때,
 이에 대응하는 $G$의 $X$에 대한 작용이 존재한다는 사실 역시 쉽게 확인할 수 있다.
 따라서 $G$의 $X$에 대한 작용과, $G\to\text{Bij}(X)$인 준동형 사이에는 일대일

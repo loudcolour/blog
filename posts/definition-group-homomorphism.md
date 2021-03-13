@@ -1,6 +1,6 @@
 ## 준동형, 동형의 정의
 
-**정의 1**(준동형, 동형).  [군](/2021/02/definition-group/) $G_1, G_2$에 대하여, 사상 $\phi: G_1 \to G_2$가
+**정의 1**(준동형, 동형).  [군](/definition-group/) $G_1, G_2$에 대하여, 사상 $\phi: G_1 \to G_2$가
 임의의 $a,b\in G_1$에 대하여 $\phi(ab) = \phi(a)\phi(b)$를 만족한다면, $\phi$를
 $G_1$에서 $G_2$로의 **준동형(homomorphism)**이라고 한다.  $\phi: G_1 \to G_2$가
 준동형인 동시에 전단사라면, $\phi$는 **동형(isomorphism)**이라고 한다. ---
@@ -27,7 +27,7 @@ $\psi\circ\phi$는 동형임을 보여라. ---
    양변에 $\phi(x)^{-1}$을 왼쪽으로부터 곱하면 결과를 얻는다. $\square$
 
 **명제 2**.  $\phi,\psi\colon G_1\to G_2$가 준동형이라고 하자. 또한, $S\subset G_1$
-에 대하여 [$\langle S \rangle = G_1$일 때](/2021/02/definition-subgroup/#부분집합에-의하여-생성되는-군), 임의의 $x\in S$에 대하여
+에 대하여 [$\langle S \rangle = G_1$일 때](/definition-subgroup/#부분집합에-의하여-생성되는-군), 임의의 $x\in S$에 대하여
 $\phi(x) = \psi(x)$라면, $\phi = \psi$이다. ---
 
 **증명**. $x\in G_1 = \langle S \rangle$, $x = x_1^{p_1}\cdots x_n^{p_n}$으로 나타내어진다고 하자.
@@ -50,7 +50,7 @@ $$
 2. $\text{Im}(\phi) = \phi(G_1)$을 $\phi$의 **상(image)**이라고 한다. ---
 
 여기서 $\text{Ker}(\phi)$와 $\text{Im}(\phi)$가 각각 $G_1$과 $G_2$의
-[부분군](/2021/02/definition-subgroup/)이라는 사실은 쉽게 확인할 수 있다.
+[부분군](/definition-subgroup/)이라는 사실은 쉽게 확인할 수 있다.
 
 **명제 3**.
 $\phi: G_1\to G_2$가 준동형이라고 하자. 다음은 모두 동치이다.

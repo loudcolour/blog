@@ -1,7 +1,7 @@
 ## 군의 반직곱의 정의
 
-**명제 1**. $N, H$를 [군](/2021/02/definition-group/)이라고 하자.
-이 때, [준동형](/2021/02/definition-homomorphism/)
+**명제 1**. $N, H$를 [군](/definition-group/)이라고 하자.
+이 때, [준동형](/definition-group-homomorphism/)
 $\Phi: H\ni h\mapsto \phi_h\in \text{Aut}(N)$을
 고정하여, 집합 $N\times H$에 다음과 같은 연산을 부여하면, $N\times H$는 군이 된다. ---
 
@@ -44,8 +44,8 @@ $\Phi$에 의한 $N$과 $H$의 **반직곱(semidirect product)**이라고 한다
 
 ## 반직곱을 이용한 군의 분해
 
-**명제 2**. 군 $G$에 대하여 [$N\vartriangleleft G$](/2021/02/normal-subgroup/)이고, $G/N$의 완전대표계인
-$G$의 [부분군](/2021/02/definition-subgroup/) $H$가 존재한다고 하자. (즉, 부분군 $H$가 존재하고,
+**명제 2**. 군 $G$에 대하여 [$N\vartriangleleft G$](/normal-subgroup/)이고, $G/N$의 완전대표계인
+$G$의 [부분군](/definition-subgroup/) $H$가 존재한다고 하자. (즉, 부분군 $H$가 존재하고,
 자연스러운 준동형 $\pi: G\to G/N$에 대하여 $\pi|_H$가 동형.) 이 때,
 다음이 성립한다.
 
@@ -93,7 +93,7 @@ $D_{2n} \cong \langle t \rangle \rtimes \langle r \rangle$. ---
 
 [^1]: 구체적으로는, $g\in G$에 대하여, $gh^{-1}\in N$인 $h$가 (단 하나) 존재하고,
 $gh^{-1} = n$이라고 하면, $g = nh$. 따라서 $f$는 전사.
-[^2]: [군의 제2동형정리](/2021/02/homeomorphism-theorem-2/)로 부터,
+[^2]: [군의 제2동형정리](/homeomorphism-theorem-2/)로 부터,
 $H \cong H/(H\cap N) \cong HN/N$이다.
 이 때, $HN$은 유한군 $G$의 부분군이고, $|HN| = |H|\cdot|N| = |G|$으로부터 $G = HN$.
 따라서, $g\in G$에 대하여 $h^{-1}g \in N$인 $h\in H$가 단 하나 존재하므로 $H$는

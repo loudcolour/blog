@@ -37,7 +37,7 @@ $\|a_n + b_n\|_p^p\leq 2^{p-1} (\|a_n\|_p^p + \|b_n\|_p^p) < \infty$이다.
 
 $\|a_n + b_n\|_p = 0$인 경우, 부등식이 성립하는 것은 자명하므로, $\|a_n + b_n\|_p>0$인 경우만을 생각하자.
 $1/p + 1/q = 1$이 되도록
-$q\in [1,\infty)$를 정하면, [Hölder 부등식](/2021/03/holder-inequality/)에 의하여
+$q\in [1,\infty)$를 정하면, [Hölder 부등식](/holder-inequality/)에 의하여
 
 $$
 \begin{aligned}

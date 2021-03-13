@@ -1,5 +1,5 @@
 **정리 1**(군의 제3동형정리).
-[군](/2021/02/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/2021/02/normal-subgroup/), $N\vartriangleleft G$,
+[군](/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/normal-subgroup/), $N\vartriangleleft G$,
 $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다. ---
 
 **증명**.
@@ -9,7 +9,7 @@ $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
   $gN = g'N$일 때 $\phi(gN) = \phi(g'N)$이 성립하는지를 확인하면 된다.
   $gN=g'N$이라면, $g^{-1}g'\in N\subset H$이므로,
   $\phi(gN) = gH = g'H = \phi(g'N)$이 성립, $\phi$는 well-defined이다.
-- 다음으로, $\phi$가 [준동형](/2021/02/definition-homomorphism/)이라는 것을 보이자.
+- 다음으로, $\phi$가 [준동형](/definition-group-homomorphism/)이라는 것을 보이자.
   $g_1, g_2\in G$,
   $g_1N, g_2N\in G/N$에 대하여,
   $\phi((g_1N)(g_2N)) = \phi(g_1g_2N) = g_1g_2H = (g_1H)(g_2H) = \phi(g_1N)\phi(g_2N)$
@@ -20,7 +20,7 @@ $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다.
   $H/N \subset \text{Ker}(\phi)$. 역으로
   $g\in G$, $gN\in \text{Ker}(\phi)$라고 하면 $gH = \phi(gN) = H$이므로
   $g\in H$, $gN\in H/N$, 따라서 $\text{Ker}(\phi) = H/N$이다.
-  이상과 [준동형정리](/2021/02/homomorphism-theorem/)에 따라,
+  이상과 [준동형정리](/homomorphism-theorem/)에 따라,
   $(G/N)/(H/N) = (G/N)/ \text{Ker}(\phi) \cong \text{Im}(\phi) = G/H$가 성립하는 것을 알 수 있다. $\square$
 
 **예 1**.
@@ -37,7 +37,7 @@ $\pi_N: G\to G/N$을 자연스러운 준동형이라고 할 때, 다음 두 조�
 
 **증명**.
 
-<img src="http://nullstellensatz.org/wp-content/uploads/2021/02/homomorphism-decomposition.svg" alt="" width="190" height="190" class="aligncenter size-thumbnail wp-image-247" />
+<img src="http://nullstellensatz.org/wp-content/uploads/homomorphism-decomposition.svg" alt="" width="190" height="190" class="aligncenter size-thumbnail wp-image-247" />
 
 - 1이면 2. 제3동형정리에서 사용한 준동형사상과 같은
   준동형 $f: G/N\to G/\text{Ker}(\phi)$가 존재하는 것을 알 수 있다.

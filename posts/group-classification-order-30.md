@@ -15,13 +15,13 @@ $G$를 위수 30인 군이라고 하자.  그렇다면, $G$는 위수 3의 3-Syl
 부분군으로부터 위수 5인 원소가 4개씩, 24개가 존재한다.  하지만 $G$의 원소는
 모두 30개이므로 이는 모순, 3-Sylow 부분군이 1개이거나 5-Sylow 부분군이 1개라는
 것을 알 수 있다. 바꾸어 말하면 3-Sylow 부분군과 5-Sylow 부분군 중 적어도 하나는
-[정규부분군](/2021/02/normal-subgroup/).
+[정규부분군](/normal-subgroup/).
 
 3-Sylow 부분군과 5-Sylow 부분군을 각각 $S_3$, $S_5$로 하나씩 택하면,
 $S_3\vartriangleleft G$이거나, $S_5\vartriangleleft G$이다. 또한,
 $S_3\cap S_5$의 위수는 $\text{gcd}(|S_3|, |S_5|) = 1$의 약수이므로 1이고,
 $S_3\cap S_5 =\left\{ 1_G \right\}$. 따라서, [군의
-제2동형정리](/2021/02/homeomorphism-theorem-2/)에 의하여, $S_3S_5$은 위수
+제2동형정리](/homeomorphism-theorem-2/)에 의하여, $S_3S_5$은 위수
 $|S_3|\cdot|S_5| = 15$의 부분군임을 알 수 있다.
 
 2의 풀이.
@@ -31,7 +31,7 @@ $G$의 지수 2인 부분군이므로 정규부분군이다[^2]. 그리고 $G$�
 부분군을 $H$라고 하면, 1에서 $S_3\cap S_5 = \left\{ 1_G \right\}$인 것을 보인
 것처럼, $H\cap N = \left\{ 1_G \right\}$이고, $|H|\cdot|N| = 30 = |G|$이므로,
 [반직곱을 이용한 군의
-분해](/2021/02/semidirect-product-of-groups/#반직곱을-이용한-군의-분해)에
+분해](/semidirect-product-of-groups/#반직곱을-이용한-군의-분해)에
 의하여, $G$의 내부자기동형에 의하여 유도되는 준동형
 $\Phi\colon H\ni h\mapsto\phi_h\in\text{Aut}(N)$이 존재하여,
 $G \cong N\rtimes H$임을 알 수 있다. 따라서 준동형 $\Phi$로 적합한 것들을 모두
@@ -40,8 +40,8 @@ $G \cong N\rtimes H$임을 알 수 있다. 따라서 준동형 $\Phi$로 적합�
 $H$는 위수 2의 부분군이다. 따라서 $H = \left\{ 1_G, h \right\}$라고 할 때,
 $\Phi(h) = \phi_h \colon n\mapsto hnh^{-1}$를 $\text{Aut}(N)$으로부터 하나 정하면, $\Phi$가
 특정된다. 이 때, $h$는 위수 2인 원소이므로, $\phi_h$의 위수는 1이거나
-2이다. $N$은 [위수 15인 순회군](/2021/03/group-classification-order-15)이므로,
-[$\text{Aut}(N) \cong (\SetZ/15\SetZ)^\times$](/2021/03/automorphism-cyclic-group).
+2이다. $N$은 [위수 15인 순회군](/group-classification-order-15)이므로,
+[$\text{Aut}(N) \cong (\SetZ/15\SetZ)^\times$](/automorphism-cyclic-group).
 위수 1이거나 2인 $(\SetZ/15\SetZ)^\times$의 원소는
 $\overline 1, \overline 4, \overline{11}, \overline{14}$이다.
 
@@ -109,7 +109,7 @@ $\SetZ/30\SetZ, \SetZ/3\SetZ\times D_{10},\SetZ/5\SetZ\times D_6, D_{30}$
   $x\neq 1_G$가 존재하여 $S_3 = \langle x \rangle = S_3'$이므로 모순. 따라서
   $S_3 \cap S_3'= \left\{ 1_G \right\}$ 이므로, 이러한 결론을 얻는다.
   5-Sylow 부분군에 대해서도 마찬가지.
-[^2]: [정규부분군, 잉여군](/2021/02/normal-subgroup/)의 문제 1.
+[^2]: [정규부분군, 잉여군](/normal-subgroup/)의 문제 1.
 [^3]: $\SetZ/3\SetZ$과 $\SetZ/5\SetZ$가 $N$의 정규부분군이므로, $\phi_h$를 각각
   제한하여 새로운 준동형 $\Phi_1\colon H\to\text{Aut}(\SetZ/3\SetZ)$,
   $\Phi_2\colon H\to\text{Aut}(\SetZ/5\SetZ)$를 유도할 수 있다.  이를 이용한

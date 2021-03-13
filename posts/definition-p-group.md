@@ -11,7 +11,7 @@ $\left\{ 1_G \right\} \neq N \vartriangleleft G$
 라고 할 때, $N\cap \text{Z}(G) \neq \left\{ 1_G \right\}$이다.
 특히, 임의의 $p$-군 $G$에 대하여, $\text{Z}(G) \neq \left\{ 1_G \right\}$ 이다. ---
 
-**증명**. $\phi: G\times N \ni (g,n)\mapsto gng^{-1} \in N$과 같은 [작용](/2021/02/definition-action/)을 생각한다.
+**증명**. $\phi: G\times N \ni (g,n)\mapsto gng^{-1} \in N$과 같은 [작용](/definition-group-action/)을 생각한다.
 $|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)와
 같이 나타내어진다.
 만약, $N \cap \text{Z}(G) = \left\{ 1_G \right\}$라고 가정하면,
@@ -22,7 +22,7 @@ $|G| = p^e$라고 하면, Lagrange 정리에 의하여 $|N| = p^a$ ($0<a\leq e$)
 $p^a =|N| = 1 +p^{b_1} + \cdots + p^{b_m}$이다.
 하지만 양변을 $p$로 나눈 나머지가 일치하지 않으므로 이는 모순. $\square$
 
-**정리 2**. 임의의 $p$-군은 [멱영군](/2021/02/definition-nilpotent-group/)이다. ---
+**정리 2**. 임의의 $p$-군은 [멱영군](/definition-nilpotent-group/)이다. ---
 
 **증명**.
 $G$를 $p$-군이라고 하자.
@@ -62,7 +62,7 @@ $\text{Z}_G(x) = G$이다. 이는 $x\in \text{Z}(G)$를 의미하므로, 모순.
 **풀이**.  $56 = 2^3\cdot 7$이고, 7-Sylow 부분군은 1개이거나 8개이다. 만약
 7-Sylow 부분군이 1개, 즉, $P_7 \vartriangleleft G$이라면, $P_7$과 $G/P_7$은
 각각 7-군과 2-군이므로, ["교환자군, 가해군"의 정리
-4](/2021/02/definition-solvable-group/)에 의하여 $G$는 가해군이다.
+4](/definition-solvable-group/)에 의하여 $G$는 가해군이다.
 
 7-Sylow 부분군이 8개 존재하는 경우, $P_7$와 $P_7'$이 서로 다른 7-Sylow
 부분군이라고 할 때, $x\in P_7 \cap P_7'$인 동시에 $x \neq 1$이라고 하면,

@@ -1,4 +1,4 @@
-**정의 1**. $G, H$를 [군](/2021/02/definition-group/)이라고 하자.
+**정의 1**. $G, H$를 [군](/definition-group/)이라고 하자.
 집합 $G\times H$에 다음과 같은 연산을 부여하면,
 $G\times H$는 군의 공리를 만족하는 것을 쉽게 확인할 수 있다. (연습문제)
 
@@ -10,7 +10,7 @@ $$
 군 $G\times H$를 $G$와 $H$의 **직곱(direct product)**라고 한다. ---
 
 
-**명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/2021/02/normal-subgroup/)이고,
+**명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/normal-subgroup/)이고,
 $H\cap K = \left\{ 1_G \right\}$,
 $G = HK$라고 하면, $G \cong H\times K$이다. ---
 
@@ -23,7 +23,7 @@ $G = HK$라고 하면, $G \cong H\times K$이다. ---
   $hkh^{-1}k^{-1} \in H\cap K = \left\{ 1_G \right\}$이므로, $hk = kh$가 성립한다.
   이를 이용하면,
   $f((h,k)(h',k')) = f(hh', kk') = hh'kk' = hkh'k' = f(h,k)f(h',k')$이므로
-  $f$는 [준동형](/2021/02/definition-homomorphism/)이다.
+  $f$는 [준동형](/definition-group-homomorphism/)이다.
 - $(h,k)\in\text{Ker}(f)$라고 하면, $hk = f(h,k) = 1_G$, $h = k^{-1} \in H\cap K = \left\{ 1_G \right\}$이므로,
   $(h,k) = (1_G, 1_G)$. 따라서 $f$는 단사.
 - $f$가 전사라는 것은 정의로부터 분명하므로, $f$는 동형이다. $\square$

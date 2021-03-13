@@ -32,7 +32,7 @@
     - [ ] 치환의 전도수(inversion number)
 - [ ] 원소의 위수
 - [ ] 잉여류, Lagrange 정리, Fermat 소정리
-- [x] [군의 준동형](https://nullstellensatz.org/2021/02/definition-homomorphism/)
+- [x] [군의 준동형](https://nullstellensatz.org/2021/02/definition-group-homomorphism/)
 - [x] [정규부분군, 잉여군](https://nullstellensatz.org/2021/02/normal-subgroup/)
     - [x] [정규부분군을 포함하는 부분군](https://nullstellensatz.org/2021/02/subgroup-containing-normal-subgroup/)
     - [ ] 정규부분군의 생성
@@ -41,7 +41,7 @@
 - [x] [군의 준동형정리](https://nullstellensatz.org/2021/02/homomorphism-theorem/)
     - [x] [군의 제2동형정리](https://nullstellensatz.org/2021/02/homeomorphism-theorem-2/)
     - [x] [군의 제3동형정리, 준동형의 분해](https://nullstellensatz.org/2021/02/homeomorphism-theorem-3/)
-- [x] [군의 작용, Cayley 정리](https://nullstellensatz.org/2021/02/definition-action/)
+- [x] [군의 작용, Cayley 정리](https://nullstellensatz.org/2021/02/definition-group-action/)
     - [ ] 순회군의 자기동형군
 - [ ] 궤도, 안정화군, 추이적인 작용
 - [ ] 정규화군, 중심화군
