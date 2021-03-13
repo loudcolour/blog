@@ -12,6 +12,7 @@
 
 수학과 학부생입니다.
 
+- **Pronoun:** he/him
 - **Location:** Tokyo, Japan
 - **Language:** Korean, English, Japanese
 - **Interested in:** Mathematics, Linux/FLOSS, Programming -- C/C++, Rust, Python, ...
