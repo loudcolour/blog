@@ -7,6 +7,7 @@
 - [ ] Cantor 대각선논법
 - [ ] 동치관계, 동치류
 - [x] [순서](https://nullstellensatz.org/2021/03/definition-order/)
+    - [x] [순서단사, 순서동형](https://nullstellensatz.org/2021/03/definition-order-isomorphism/)
     - [ ] 정렬순서
     - [ ] 순서수
 - [ ] 선택공리
