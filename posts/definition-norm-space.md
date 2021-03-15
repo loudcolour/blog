@@ -33,7 +33,9 @@ $$
 f(x) \coloneqq \sum_{i=1}^{n} (a_ix-b_i)^2 = \left( \sum_{i=1}^{n}a_i^2 \right)x^2-2\left( \sum_{i=1}^{n} a_ib_i \right)x + \left( \sum_{i=1}^{n} b_i^2 \right)
 $$
 
-라고 $f(x)$를 정의하면, $a_i\neq 0$인 $i=1,\ldots,n$이 존재하므로, $f(x)$는
+라고 $f(x)$를 정의하면, $a_i\neq 0$인 $i=1,\ldots,n$이 존재하므로,
+$\sum_{i=1}^n a_i^2 \neq 0$.
+$f(x)$는
 2차의 다항식이다. 중간의 식으로부터 알 수 있듯이, 임의의 $x\in\SetR$에 대하여
 $f(x)\geq 0$이므로, $f(x)$의 판별식 $D$에 대하여,
 
@@ -42,9 +44,9 @@ D/4 =
 \left( \sum_{i=1}^{n} a_ib_i \right)^2-\left( \sum_{i=1}^{n} a_i^2 \right)\left( \sum_{i=1}^{n} b_i^2 \right) \leq 0
 $$
 
-임을 알 수 있다. 또한, $\vec a\neq\vec 0$와 $\vec b$가 선형종속인 것과
-$\lambda\vec a = \vec b$이도록 하는 $\lambda\in\SetR$이 존재하는 것은 동치, 또한,
-이 때 $f(\lambda)= 0$이고 $D=0$이게 되므로, $\vec a$와 $\vec b$가 선형종속인 것과
+임을 알 수 있다. 또한, "$\vec a\neq\vec 0$와 $\vec b$가 선형종속인 것"과
+"$\lambda\vec a = \vec b$이도록 하는 $\lambda\in\SetR$이 존재하는 것"은 동치, 이 경우에 한하여
+$f(\lambda)= 0$로 $f(x)$는 중근 $\lambda$를 가지므로, $D=0$. $\vec a$와 $\vec b$가 선형종속인 것과
 등호 성립은 동치임을 알 수 있다. $\square$
 
 **별도의 증명**.
@@ -59,7 +61,7 @@ $$
 \end{aligned}
 $$
 
-여기서 등호는 임의의 $i<j$에 대하여 $a_ib_j - a_jb_i = 0$일 때에 한하여
+여기서 등호는 임의의 $i<j$에 대하여 $a_ib_j-a_jb_i=0$일 때에 한하여
 성립한다는 것을 알 수 있다.  이 조건이 $\vec a$와 $\vec b$가 선형종속인 것과
 동치인 것은 간단히 확인할 수 있다. $\square$
 
