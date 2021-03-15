@@ -10,7 +10,7 @@ $$
 군 $G\times H$를 $G$와 $H$의 **직곱(direct product)**라고 한다. ---
 
 
-**명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/normal-subgroup/)이고,
+**명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/definition-normal-subgroup/)이고,
 $H\cap K = \left\{ 1_G \right\}$,
 $G = HK$라고 하면, $G \cong H\times K$이다. ---
 

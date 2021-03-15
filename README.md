@@ -6,7 +6,7 @@
 - [x] [Bernstein 정리: 양방향의 단사 사상에 의한 전단사 사상의 존재](https://nullstellensatz.org/2021/02/bernstein/)
 - [ ] Cantor 대각선논법
 - [ ] 동치관계, 동치류
-- [x] [순서](https://nullstellensatz.org/2021/03/order/)
+- [x] [순서](https://nullstellensatz.org/2021/03/definition-order/)
     - [ ] 정렬순서
     - [ ] 순서수
 - [ ] 선택공리
@@ -33,7 +33,7 @@
 - [ ] 원소의 위수
 - [ ] 잉여류, Lagrange 정리, Fermat 소정리
 - [x] [군의 준동형](https://nullstellensatz.org/2021/02/definition-group-homomorphism/)
-- [x] [정규부분군, 잉여군](https://nullstellensatz.org/2021/02/normal-subgroup/)
+- [x] [정규부분군, 잉여군](https://nullstellensatz.org/2021/02/definition-normal-subgroup/)
     - [x] [정규부분군을 포함하는 부분군](https://nullstellensatz.org/2021/02/subgroup-containing-normal-subgroup/)
     - [ ] 정규부분군의 생성
 - [x] [군의 직곱](https://nullstellensatz.org/2021/02/direct-product-of-groups/)
@@ -68,7 +68,7 @@
 
 - [x] [환의 정의](https://nullstellensatz.org/2021/02/definition-ring/)
     - [ ] 다항식환, 차수, 다항식의 나눗셈
-    - [x] [체, 정역](https://nullstellensatz.org/2021/02/integral-domain-and-field/)
+    - [x] [체, 정역](https://nullstellensatz.org/2021/02/definition-integral-domain-and-field/)
 - [ ] 환 상의 대수
 - [ ] 아이디얼, 생성 아이디얼
     - [ ] 아이디얼의 연산
@@ -78,7 +78,7 @@
     - [ ] 아이디얼을 포함하는 아이디얼
     - [ ] Krull 정리: 단원이 아닌 원소를 포함하는 극대 아이디얼의 존재
 - [ ] 환의 준동형정리
-    - [x] [환의 중국잉여정리](https://nullstellensatz.org/2021/03/crt/)
+    - [x] [환에서의 중국인의 나머지 정리](https://nullstellensatz.org/2021/03/chinese-remainder-theorem/)
 - [ ] 환의 국소화, 소 아이디얼에 의한 국소화
     - [ ] 국소화의 보편성
     - [ ] 소 아이디얼의 대응

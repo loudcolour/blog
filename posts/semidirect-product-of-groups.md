@@ -44,7 +44,7 @@ $\Phi$에 의한 $N$과 $H$의 **반직곱(semidirect product)**이라고 한다
 
 ## 반직곱을 이용한 군의 분해
 
-**명제 2**. 군 $G$에 대하여 [$N\vartriangleleft G$](/normal-subgroup/)이고, $G/N$의 완전대표계인
+**명제 2**. 군 $G$에 대하여 [$N\vartriangleleft G$](/definition-normal-subgroup/)이고, $G/N$의 완전대표계인
 $G$의 [부분군](/definition-subgroup/) $H$가 존재한다고 하자. (즉, 부분군 $H$가 존재하고,
 자연스러운 준동형 $\pi: G\to G/N$에 대하여 $\pi|_H$가 동형.) 이 때,
 다음이 성립한다.

@@ -1,6 +1,6 @@
 **정리 1**.
 $N$을 [군](/definition-group/) $G$의
-[정규부분군](/normal-subgroup/)이라고 하자.
+[정규부분군](/definition-normal-subgroup/)이라고 하자.
 $\pi: G\to G/N$을 자연스러운 [준동형](/definition-group-homomorphism/),
 $X$를 $G/N$의 [부분군](/definition-subgroup/)의 집합,
 $Y$를 $N$을 포함하는 $G$의 부분군 전체의 집합이라고 두면, 다음 두 사상

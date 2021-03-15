@@ -1,5 +1,5 @@
 **정리 1**(군의 제3동형정리).
-[군](/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/normal-subgroup/), $N\vartriangleleft G$,
+[군](/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/definition-normal-subgroup/), $N\vartriangleleft G$,
 $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다. ---
 
 **증명**.
