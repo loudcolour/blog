@@ -78,7 +78,7 @@
     - [ ] 아이디얼을 포함하는 아이디얼
     - [ ] Krull 정리: 단원이 아닌 원소를 포함하는 극대 아이디얼의 존재
 - [ ] 환의 준동형정리
-    - [x] [환에서의 중국인의 나머지 정리](https://nullstellensatz.org/2021/03/chinese-remainder-theorem/)
+    - [x] [중국인의 나머지 정리](https://nullstellensatz.org/2021/03/chinese-remainder-theorem/)
 - [ ] 환의 국소화, 소 아이디얼에 의한 국소화
     - [ ] 국소화의 보편성
     - [ ] 소 아이디얼의 대응
