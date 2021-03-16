@@ -1,3 +1,5 @@
+## 중국인의 나머지 정리
+
 **정리 1**(중국인의 나머지 정리^Chinese\ Remainder\ Theorem,\ CRT^[^2]). $A$를
 [비자명한 가환환](/definition-ring/),
 $I_1,\ldots,I_n\subsetneq A$를 $A$의 [아이디얼](/definition-ideal/)이라고 하자.
