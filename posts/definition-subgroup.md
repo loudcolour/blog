@@ -1,7 +1,7 @@
 ## 부분군의 정의
 
 **정의 1**.  [군](/definition-group/) $G$의 부분집합 $H\subset G$가, $G$의 연산 (정확히는 $G$의
-연산의 제한)에 의하여 군을 이룰 때, $H$는 $G$의 **부분군(subgroup)**이라고
+연산의 제한)에 의하여 군을 이룰 때, $H$는 $G$의 **부분군^subgroup^**이라고
 한다. ---
 
 **명제 1**(부분군의 판별).  군 $G$에 대하여 $H \subset G$가 부분군일
@@ -52,7 +52,7 @@ $\langle S_1\rangle \subset \langle S_2\rangle$ 이다. ---
 **증명**. $S_1 \subset S_2 \subset \langle S_2 \rangle$이고, 명제 2에 의하여,
 $\langle S_1 \rangle\subset \langle S_2 \rangle$. $\square$
 
-**정의 3**.  하나의 원소에 의하여 생성되는 군을 **순회군(cyclic group)**이라고
+**정의 3**.  하나의 원소에 의하여 생성되는 군을 **순회군^cyclic\ group^**이라고
 한다.  즉, 군 $G$에 대하여 $x\in G$가 존재하여
 $G = \langle x\rangle = \left\{x^n \mid n\in\mathbb{Z} \right\}$이라면, $G$는 순회군이다. ---
 

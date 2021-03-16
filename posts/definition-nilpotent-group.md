@@ -3,7 +3,7 @@
 **정의 1**(멱영군).  $G$를 군이라고 하자. 군의 열
 $G = G_0 \supset G_1 \supset\cdots \supset G_n = \left\{ 1_G \right\}$가 존재하여,
 모든 $i=0,\ldots,n-1$에 대하여 다음 조건을 만족한다면, $G$는
-**멱영군(nilpotent group)**이라고 한다.
+**멱영군^nilpotent\ group^**이라고 한다.
 
 1. $G_{i+1} \vartriangleleft G$.
 2. $G_i/G_{i+1} \subset \text{Z}(G/G_{i+1})$. ---

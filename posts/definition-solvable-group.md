@@ -3,11 +3,11 @@
 **정의 1**(교환자군). $G$를 [군](/definition-group/)이라고 하자.
 
 1. $x,y\in G$에 대하여, $[x,y] \coloneqq xyx^{-1}y^{-1}\in G$를 $x,y$의
-   **교환자(commutator)**라고 한다.
+   **교환자^commutator^**라고 한다.
 2. $G$의 [부분군](/definition-subgroup/) $H, K\subset G$에
    대하여, $\left\{ [x,y] \mid x\in H, y\in K \right\}$에 의해 [생성되는](/definition-subgroup/#부분집합에-의하여-생성되는-군) 군을
    $[H,K]$와 같이 쓰기로 한다.
-3. $D(G) \coloneqq [G,G]$를 $G$의 **교환자군(commutator group)**이라고 한다. ---
+3. $D(G) \coloneqq [G,G]$를 $G$의 **교환자군^commutator\ group^**이라고 한다. ---
 
 **주**. $G$를 군이라고 할 때:
 
@@ -74,7 +74,7 @@ $\pi: G\to G/D(G)$가 주어졌을 때, [준동형의 분해](/homeomorphism-the
 
 **정의 2**(가해군).
 $G$를 군이라고 하자. $D_n(G) = \left\{ 1_G \right\}$인 $n\geq 0$가 존재할 때,
-$G$는 **가해군(solvable group)**이라고 한다. ---
+$G$는 **가해군^solvable\ group^**이라고 한다. ---
 
 **예 1**. 임의의 abelian 군은 가해군이다. ---
 
@@ -115,7 +115,7 @@ $G$를 군, $N\vartriangleleft G$라고 하자. 다음은 모두 동치이다.
 **정의 3**(단순군).
 군 $G$가 abelian이 아닌 동시에, $G$의 자명하지 않은 -- 즉, $\left\{ 1_G \right\}$, $G$ 이외의
 -- 정규부분군을 가지지 않는다면,
-$G$는 **단순군(simple group)**이라고 한다. ---
+$G$는 **단순군^simple\ group^**이라고 한다. ---
 
 정의로부터 단순군은 가해군이 아님을 알 수 있다.
 

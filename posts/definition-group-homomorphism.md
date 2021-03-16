@@ -2,8 +2,8 @@
 
 **정의 1**(준동형, 동형).  [군](/definition-group/) $G_1, G_2$에 대하여, 사상 $\phi: G_1 \to G_2$가
 임의의 $a,b\in G_1$에 대하여 $\phi(ab) = \phi(a)\phi(b)$를 만족한다면, $\phi$를
-$G_1$에서 $G_2$로의 **준동형(homomorphism)**이라고 한다.  $\phi: G_1 \to G_2$가
-준동형인 동시에 전단사라면, $\phi$는 **동형(isomorphism)**이라고 한다. ---
+$G_1$에서 $G_2$로의 **준동형^homomorphism^**이라고 한다.  $\phi: G_1 \to G_2$가
+준동형인 동시에 전단사라면, $\phi$는 **동형^isomorphism^**이라고 한다. ---
 
 $\phi$가 동형이라면,
 $\phi(\phi^{-1}(ab)) = ab =\phi(\phi^{-1}(a))\phi(\phi^{-1}(b)) = \phi(\phi^{-1}(a)\phi^{-1}(b))$
@@ -46,8 +46,8 @@ $$
 **정의 3**(준동형의 핵, 상). $\phi: G_1\to G_2$를 준동형이라고 하자.
 
 1. $\text{Ker}(\phi) = \left\{ x\in G_1 \mid \phi(x) = 1_{G_2} \right\}$을
-   $\phi$의 **핵(kernel)**이라고 한다.
-2. $\text{Im}(\phi) = \phi(G_1)$을 $\phi$의 **상(image)**이라고 한다. ---
+   $\phi$의 **핵^kernel^**이라고 한다.
+2. $\text{Im}(\phi) = \phi(G_1)$을 $\phi$의 **상^image^**이라고 한다. ---
 
 여기서 $\text{Ker}(\phi)$와 $\text{Im}(\phi)$가 각각 $G_1$과 $G_2$의
 [부분군](/definition-subgroup/)이라는 사실은 쉽게 확인할 수 있다.

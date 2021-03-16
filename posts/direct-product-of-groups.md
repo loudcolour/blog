@@ -7,7 +7,7 @@ $$
 $$
 
 이와 같은
-군 $G\times H$를 $G$와 $H$의 **직곱(direct product)**라고 한다. ---
+군 $G\times H$를 $G$와 $H$의 **직곱^direct\ product^**라고 한다. ---
 
 
 **명제 1**. 군 $G$에 대하여, [$H,K\vartriangleleft G$](/definition-normal-subgroup/)이고,

@@ -37,7 +37,7 @@ $$
 이므로, 역원 $(\phi_{h^{-1}}(n^{-1}), h^{-1})$이 존재함을 알 수 있다. $\square$
 
 **정의 1**. 위 명제의 군을 $N\rtimes_\Phi H$, 혹은 $N\rtimes H$로 나타내어,
-$\Phi$에 의한 $N$과 $H$의 **반직곱(semidirect product)**이라고 한다. ---
+$\Phi$에 의한 $N$과 $H$의 **반직곱^semidirect\ product^**이라고 한다. ---
 
 **주**. $\Phi: H \to \text{Aut}(N)$이 자명한 준동형 -- 임의의 $h\in H$에 대해 $\Phi(h) = \text{id}_N$
 -- 이라고 하면, $\Phi$에 의한 반직곱은 일반적인 군의 직곱 $N\times H$와 같다는 것을 알 수 있다. ---

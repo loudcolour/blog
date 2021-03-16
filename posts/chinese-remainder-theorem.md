@@ -1,4 +1,4 @@
-**정리 1**(중국인의 나머지 정리(Chinese Remainder Theorem, CRT)[^2]). $A$를
+**정리 1**(중국인의 나머지 정리^Chinese\ Remainder\ Theorem,\ CRT^[^2]). $A$를
 [비자명한 가환환](/definition-ring/),
 $I_1,\ldots,I_n\subsetneq A$를 $A$의 [아이디얼](/definition-ideal/)이라고 하자.
 $I_1,\ldots,I_n$ 중 어느 두 개를 선택해도 서로소[^1]라면, 다음이 성립한다.
