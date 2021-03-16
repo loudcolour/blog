@@ -1,6 +1,7 @@
-**정리 1**(중국인의 나머지 정리(Chinese Remainder Theorem, CRT)[^2]). $A$를 비자명한 가환환,
-$I_1,\ldots,I_n\subsetneq A$를 $A$의 아이디얼이라고 하자. $I_1,\ldots,I_n$ 중
-어느 두 개를 선택해도 서로소[^1]라면, 다음이 성립한다.
+**정리 1**(중국인의 나머지 정리(Chinese Remainder Theorem, CRT)[^2]). $A$를
+[비자명한 가환환](/definition-ring/),
+$I_1,\ldots,I_n\subsetneq A$를 $A$의 [아이디얼](/definition-ideal/)이라고 하자.
+$I_1,\ldots,I_n$ 중 어느 두 개를 선택해도 서로소[^1]라면, 다음이 성립한다.
 
 1. $i=1,\ldots,n$에 대하여, $I_i$와 $\prod_{j\neq i}I_j$는 서로소.
 2. $I_1\cap\cdots\cap I_n = I_1\cdots I_n$.
