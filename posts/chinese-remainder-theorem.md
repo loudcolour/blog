@@ -12,33 +12,39 @@ $I_1,\ldots,I_n$ 중 어느 두 개를 선택해도 서로소[^1]라면, 다음�
 
 **증명**.
 
-1. $i=1$이라고 해도 일반성을 잃지 않으므로, $I_1 + I_2\cdots I_n = A$임을 보이자.
-   각 $j=2,\ldots,n$에 대하여 $x_j + y_j = 1$인 $x_j\in I_1$, $y_j\in I_j$을
-   취할 수 있다. 여기서 $(x_2+y_2)\cdots(x_n+y_n) = 1$이고,
-   좌변을 전개했을 때, $y_2\cdots y_n\in I_2\cdots I_n$을 제외한 항은 모두
-   $I_1$의 원소이므로, $I_1 + I_2\cdots I_n = A$인 것을 알 수 있다.
-2. $n$에 관한 귀납법으로 보이자.
-    - $n = 2$인 경우:
-        - $I_1I_2\subset I_1\cap I_2$이 성립하는 것은 당연.
-        - $x+y=1$이 되도록 $x\in I_1$, $y\in I_2$를 취하면, $a\in I_1\cap I_2$라고
-          할 때, $a=ax+ay\in I_1I_2$. 따라서 $I_1\cap I_2\subset I_1I_2$.
-    - $I_1\cap\cdots\cap I_{n-1} = I_1\cdots I_{n-1}$($= J$)가 성립한다고 하면,
-      1에서 보인대로 $J + I_n = A$. 따라서, $n=2$인 경우에서 보인대로,
-      $I_1\cap\cdots\cap I_{n} = J \cap I_n = JI_n = I_1\cdots I_n$.
-3. 환의 준동형정리를 이용한다.
-    - $n=2$인 경우를 먼저 보이자. $\phi\colon A\ni a\mapsto (a+I_1, a+I_2)\in A/I_1\times A/I_2$와
-      같은 준동형을 생각할 때, $\text{Ker}(\phi) = I_1\cap I_2$인 것은 환의 직곱의
-      정의로부터 당연하다.  또한, $I_1+I_2=A$이므로,
-      $x+y=1$인 $x\in I_1$, $y\in I_2$
-      를 취하면, 임의의 $a,b\in A$에 대하여 $\phi(ay+bx)=(a+I_1,b+I_2)$
-      이므로 $\phi$는 전사이다[^3]. 따라서 환의 준동형정리에 의하여,
-      $A/(I_1\cap I_2) \cong A/I_1 \times A/I_2$이다.
-    - $n>2$인 경우 역시,
-      $J = I_1\cdots I_{n-1}$으로 두면, 2에서 보인대로 $J=I_1\cap\cdots\cap I_{n-1}$
-      이고, 1에서 보인대로 $J+I_n=A$이므로, $n=2$일 때와 마찬가지로
-      $A/(I_1\cap\cdots\cap I_n) = A/(J\cap I_n) \cong A/J\times A/I_n$. 이와 같은
-      작업을 반복하면 $A/J= A/I_1\times\cdots\times A/I_n$임을 알 수 있으므로,
-      동형이 보여진다.  $\square$
+1의 증명.
+$i=1$이라고 해도 일반성을 잃지 않으므로, $I_1 + I_2\cdots I_n = A$임을 보이자.
+각 $j=2,\ldots,n$에 대하여 $x_j + y_j = 1$인 $x_j\in I_1$, $y_j\in I_j$을
+취할 수 있다. 여기서 $(x_2+y_2)\cdots(x_n+y_n) = 1$이고,
+좌변을 전개했을 때, $y_2\cdots y_n\in I_2\cdots I_n$을 제외한 항은 모두
+$I_1$의 원소이므로, $I_1 + I_2\cdots I_n = A$인 것을 알 수 있다.
+
+2의 증명.
+$n$에 관한 귀납법으로 보이자.
+
+- $n = 2$인 경우: $I_1I_2\subset I_1\cap I_2$이 성립하는 것은 당연.
+  $x+y=1$이 되도록 $x\in I_1$, $y\in I_2$를 취하면, $a\in I_1\cap I_2$라고
+  할 때, $a=ax+ay\in I_1I_2$. 따라서 $I_1\cap I_2\subset I_1I_2$.
+- $I_1\cap\cdots\cap I_{n-1} = I_1\cdots I_{n-1}$($= J$)가 성립한다고 하면,
+  1에서 보인대로 $J + I_n = A$. 따라서, $n=2$인 경우에서 보인대로,
+  $I_1\cap\cdots\cap I_{n} = J \cap I_n = JI_n = I_1\cdots I_n$.
+
+3의 증명.
+[환의 준동형정리](/ring-homomorphism-theorem)를 이용한다.
+
+- $n=2$인 경우를 먼저 보이자. $\phi\colon A\ni a\mapsto (a+I_1, a+I_2)\in A/I_1\times A/I_2$와
+  같은 준동형을 생각할 때, $\text{Ker}(\phi) = I_1\cap I_2$인 것은 환의 직곱의
+  정의로부터 당연하다.  또한, $I_1+I_2=A$이므로,
+  $x+y=1$인 $x\in I_1$, $y\in I_2$
+  를 취하면, 임의의 $a,b\in A$에 대하여 $\phi(ay+bx)=(a+I_1,b+I_2)$
+  이므로 $\phi$는 전사이다[^3]. 따라서 환의 준동형정리에 의하여,
+  $A/(I_1\cap I_2) \cong A/I_1 \times A/I_2$이다.
+- $n>2$인 경우 역시,
+  $J = I_1\cdots I_{n-1}$으로 두면, 2에서 보인대로 $J=I_1\cap\cdots\cap I_{n-1}$
+  이고, 1에서 보인대로 $J+I_n=A$이므로, $n=2$일 때와 마찬가지로
+  $A/(I_1\cap\cdots\cap I_n) = A/(J\cap I_n) \cong A/J\times A/I_n$. 이와 같은
+  작업을 반복하면 $A/J= A/I_1\times\cdots\times A/I_n$임을 알 수 있으므로,
+  동형이 보여진다.  $\square$
 
 **보조정리 2**. $I, J$가 비자명한 가환환 $A$의 서로소인 아이디얼이고,
 $a,b\in\SetZ_{>0}$라면,
