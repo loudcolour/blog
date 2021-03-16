@@ -71,10 +71,9 @@
     - [ ] 다항식환, 차수, 다항식의 나눗셈
     - [x] [체, 정역](https://nullstellensatz.org/2021/02/definition-integral-domain-and-field/)
 - [ ] 환 상의 대수
-- [ ] 아이디얼, 생성 아이디얼
+- [ ] [아이디얼, 잉여환](https://nullstellensatz.org/2021/02/definition-ideal/)
     - [ ] 아이디얼의 연산
     - [ ] 아이디얼의 모듈러 법칙(modular law)
-    - [ ] 잉여환
     - [ ] 극대 아이디얼, 소 아이디얼
     - [ ] 아이디얼을 포함하는 아이디얼
     - [ ] Krull 정리: 단원이 아닌 원소를 포함하는 극대 아이디얼의 존재
