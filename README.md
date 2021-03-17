@@ -8,7 +8,7 @@
 - [ ] 동치관계, 동치류
 - [x] [순서](https://nullstellensatz.org/definition-order/)
     - [x] [순서단사, 순서동형](https://nullstellensatz.org/definition-order-isomorphism/)
-    - [ ] 정렬순서
+    - [ ] [정렬순서](https://nullstellensatz.org/definition-well-ordered-set/)
     - [ ] 순서수
 - [ ] 선택공리
     - [x] [Zorn 보조정리](https://nullstellensatz.org/zorn-lemma/)
@@ -29,8 +29,8 @@
 - [x] [군의 정의, 대칭군, 일반선형군](https://nullstellensatz.org/definition-group/)
 - [x] [부분군, 군의 생성](https://nullstellensatz.org/definition-subgroup/)
     - [ ] 일반선형군의 부분군
-    - [ ] 치환의 부호와 교대군
-    - [ ] 치환의 전도수(inversion number)
+    - [ ] [치환의 부호와 교대군](https://nullstellensatz.org/definition-alternating-group/)
+    - [ ] [치환의 전도수](https://nullstellensatz.org/inversion-number/)
 - [ ] 원소의 위수
 - [ ] 잉여류, Lagrange 정리, Fermat 소정리
 - [x] [군의 준동형](https://nullstellensatz.org/definition-group-homomorphism/)
@@ -43,9 +43,9 @@
     - [x] [군의 제2동형정리](https://nullstellensatz.org/homeomorphism-theorem-2/)
     - [x] [군의 제3동형정리, 준동형의 분해](https://nullstellensatz.org/homeomorphism-theorem-3/)
 - [x] [군의 작용, Cayley 정리](https://nullstellensatz.org/definition-group-action/)
-    - [ ] 순회군의 자기동형군
+    - [ ] [순회군의 자기동형군](https://nullstellensatz.org/automorphism-cyclic-group/)
 - [ ] 궤도, 안정화군, 추이적인 작용
-- [ ] 정규화군, 중심화군
+- [ ] [정규화군, 중심화군](https://nullstellensatz.org/definition-normalizer-centralizer/)
 - [x] [교환자군, 가해군](https://nullstellensatz.org/definition-solvable-group/)
     - [x] [멱영군](https://nullstellensatz.org/definition-nilpotent-group/)
     - [x] [$p$-군](https://nullstellensatz.org/definition-p-group/)
@@ -62,30 +62,31 @@
 - [ ] Sylow 정리에 관한 연습문제
     - [ ] 위수 8인 군의 분류
     - [ ] 위수 12인 군의 분류
-    - [ ] 위수 15인 군의 분류
+    - [ ] [위수 15인 군의 분류](https://nullstellensatz.org/group-classification-order-15/)
     - [x] [위수 30인 군의 분류](https://nullstellensatz.org/group-classification-order-30/)
 
 ### Ring Theory
 
 - [x] [환의 정의](https://nullstellensatz.org/definition-ring/)
     - [ ] 다항식환, 차수, 다항식의 나눗셈
-    - [x] [체, 정역](https://nullstellensatz.org/definition-integral-domain-and-field/)
+    - [ ] [환의 준동형](https://nullstellensatz.org/definition-ring-homomorphism/)
+    - [x] [정역, 체](https://nullstellensatz.org/definition-integral-domain-and-field/)
 - [ ] 환 상의 대수
 - [x] [아이디얼, 잉여환](https://nullstellensatz.org/definition-ideal/)
     - [ ] 아이디얼의 연산
-    - [ ] 아이디얼의 모듈러 법칙(modular law)
-    - [ ] 극대 아이디얼, 소 아이디얼
-    - [ ] 아이디얼을 포함하는 아이디얼
-    - [ ] Krull 정리: 단원이 아닌 원소를 포함하는 극대 아이디얼의 존재
-- [ ] 환의 준동형정리
+    - [ ] 아이디얼의 모듈러 법칙
+    - [ ] [소 아이디얼, 극대 아이디얼](https://nullstellensatz.org/definition-prime-maximal-ideal/)
+    - [x] [아이디얼을 포함하는 아이디얼](https://nullstellensatz.org/ideal-containing-ideal/)
+    - [ ] [Krull 정리](https://nullstellensatz.org/krull/)
+    - [ ] [몫 아이디얼](https://nullstellensatz.org/colon-ideal/)
+- [ ] [환의 준동형정리](https://nullstellensatz.org/ring-homomorphism-theorem/)
     - [x] [중국인의 나머지 정리](https://nullstellensatz.org/chinese-remainder-theorem/)
-- [ ] 환의 국소화, 소 아이디얼에 의한 국소화
+- [ ] [환의 국소화](https://nullstellensatz.org/localization/)
     - [ ] 국소화의 보편성
     - [ ] 소 아이디얼의 대응
-    - [ ] 국소환
-    - [ ] 몫 아이디얼
+    - [ ] [국소환](https://nullstellensatz.org/definition-local-ring/)
 - [ ] 멱영, 스펙트럼
-- [ ] UFD, PID, Euclidean 정역
+- [ ] [UFD, PID, Euclidean 정역](https://nullstellensatz.org/definition-ufd-pid-euclidean-domain/)
 - [ ] 정규환
 - [ ] Eisenstein 판정법
 - [ ] Noether 환
@@ -108,10 +109,10 @@
 
 ### General Topology
 
-- [ ] 위상의 정의
+- [ ] [위상의 정의](https://nullstellensatz.org/definition-topology/)
 - [ ] 내부작용소, 폐포작용소
 - [ ] 근방
-- [ ] 위상공간의 생성
+- [ ] [위상공간의 생성](https://nullstellensatz.org/definition-topology-basis/)
     - [ ] 기본근방계
     - [ ] 제1가산공리
     - [ ] 제2가산공리
@@ -132,14 +133,14 @@
 - [ ] 정규공간
     - [ ] Urysohn 보조정리
     - [ ] Tietze 확장정리
-- [ ] 상한위상, 하한위상
+- [ ] [상한위상, 하한위상](https://nullstellensatz.org/lower-upper-limit-topology-real-number/)
 - [ ] 사영공간
 
 ### Metric Space
 
-- [ ] 거리공간의 정의
+- [ ] [거리공간의 정의](https://nullstellensatz.org/definition-metric-space)
 - [x] [노름공간의 정의](https://nullstellensatz.org/definition-norm-space)
-- [ ] 내적공간의 정의
+- [ ] [내적공간의 정의](https://nullstellensatz.org/definition-inner-product-space/)
 - [ ] 거리공간과 콤팩트성
 - [ ] Hilbert 공간
 - [ ] Banach 공간
