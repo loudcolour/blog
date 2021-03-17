@@ -3,15 +3,15 @@
 ## Set Theory
 
 - [ ] 사상, 단사, 전사, 전단사
-- [x] [Bernstein 정리](https://nullstellensatz.org/2021/02/bernstein/)
+- [x] [Bernstein 정리](https://nullstellensatz.org/bernstein/)
 - [ ] Cantor 대각선논법
 - [ ] 동치관계, 동치류
-- [x] [순서](https://nullstellensatz.org/2021/03/definition-order/)
-    - [x] [순서단사, 순서동형](https://nullstellensatz.org/2021/03/definition-order-isomorphism/)
+- [x] [순서](https://nullstellensatz.org/definition-order/)
+    - [x] [순서단사, 순서동형](https://nullstellensatz.org/definition-order-isomorphism/)
     - [ ] 정렬순서
     - [ ] 순서수
 - [ ] 선택공리
-    - [x] [Zorn 보조정리](https://nullstellensatz.org/2021/03/zorn-lemma/)
+    - [x] [Zorn 보조정리](https://nullstellensatz.org/zorn-lemma/)
     - [ ] Tukey 보조정리
     - [ ] Kuratowski 보조정리
     - [ ] 정렬가능정리, 기수 비교의 Trichotomy
@@ -26,29 +26,29 @@
 
 ### Group Theory
 
-- [x] [군의 정의, 대칭군, 일반선형군](https://nullstellensatz.org/2021/02/definition-group/)
-- [x] [부분군, 군의 생성](https://nullstellensatz.org/2021/02/definition-subgroup/)
+- [x] [군의 정의, 대칭군, 일반선형군](https://nullstellensatz.org/definition-group/)
+- [x] [부분군, 군의 생성](https://nullstellensatz.org/definition-subgroup/)
     - [ ] 일반선형군의 부분군
     - [ ] 치환의 부호와 교대군
     - [ ] 치환의 전도수(inversion number)
 - [ ] 원소의 위수
 - [ ] 잉여류, Lagrange 정리, Fermat 소정리
-- [x] [군의 준동형](https://nullstellensatz.org/2021/02/definition-group-homomorphism/)
-- [x] [정규부분군, 잉여군](https://nullstellensatz.org/2021/02/definition-normal-subgroup/)
-    - [x] [정규부분군을 포함하는 부분군](https://nullstellensatz.org/2021/02/subgroup-containing-normal-subgroup/)
+- [x] [군의 준동형](https://nullstellensatz.org/definition-group-homomorphism/)
+- [x] [정규부분군, 잉여군](https://nullstellensatz.org/definition-normal-subgroup/)
+    - [x] [정규부분군을 포함하는 부분군](https://nullstellensatz.org/subgroup-containing-normal-subgroup/)
     - [ ] 정규부분군의 생성
-- [x] [군의 직곱](https://nullstellensatz.org/2021/02/direct-product-of-groups/)
-    - [x] [군의 반직곱](https://nullstellensatz.org/2021/02/semidirect-product-of-groups/)
-- [x] [군의 준동형정리](https://nullstellensatz.org/2021/02/homomorphism-theorem/)
-    - [x] [군의 제2동형정리](https://nullstellensatz.org/2021/02/homeomorphism-theorem-2/)
-    - [x] [군의 제3동형정리, 준동형의 분해](https://nullstellensatz.org/2021/02/homeomorphism-theorem-3/)
-- [x] [군의 작용, Cayley 정리](https://nullstellensatz.org/2021/02/definition-group-action/)
+- [x] [군의 직곱](https://nullstellensatz.org/direct-product-of-groups/)
+    - [x] [군의 반직곱](https://nullstellensatz.org/semidirect-product-of-groups/)
+- [x] [군의 준동형정리](https://nullstellensatz.org/homomorphism-theorem/)
+    - [x] [군의 제2동형정리](https://nullstellensatz.org/homeomorphism-theorem-2/)
+    - [x] [군의 제3동형정리, 준동형의 분해](https://nullstellensatz.org/homeomorphism-theorem-3/)
+- [x] [군의 작용, Cayley 정리](https://nullstellensatz.org/definition-group-action/)
     - [ ] 순회군의 자기동형군
 - [ ] 궤도, 안정화군, 추이적인 작용
 - [ ] 정규화군, 중심화군
-- [x] [교환자군, 가해군](https://nullstellensatz.org/2021/02/definition-solvable-group/)
-    - [x] [멱영군](https://nullstellensatz.org/2021/02/definition-nilpotent-group/)
-    - [x] [$p$-군](https://nullstellensatz.org/2021/02/definition-p-group/)
+- [x] [교환자군, 가해군](https://nullstellensatz.org/definition-solvable-group/)
+    - [x] [멱영군](https://nullstellensatz.org/definition-nilpotent-group/)
+    - [x] [$p$-군](https://nullstellensatz.org/definition-p-group/)
     - [ ] 단순군인 교대군
 - [ ] Sylow 부분군, Sylow 정리
 - [ ] 유한 abelian 군의 구조정리
@@ -63,22 +63,22 @@
     - [ ] 위수 8인 군의 분류
     - [ ] 위수 12인 군의 분류
     - [ ] 위수 15인 군의 분류
-    - [x] [위수 30인 군의 분류](https://nullstellensatz.org/2021/02/group-classification-order-30/)
+    - [x] [위수 30인 군의 분류](https://nullstellensatz.org/group-classification-order-30/)
 
 ### Ring Theory
 
-- [x] [환의 정의](https://nullstellensatz.org/2021/02/definition-ring/)
+- [x] [환의 정의](https://nullstellensatz.org/definition-ring/)
     - [ ] 다항식환, 차수, 다항식의 나눗셈
-    - [x] [체, 정역](https://nullstellensatz.org/2021/02/definition-integral-domain-and-field/)
+    - [x] [체, 정역](https://nullstellensatz.org/definition-integral-domain-and-field/)
 - [ ] 환 상의 대수
-- [ ] [아이디얼, 잉여환](https://nullstellensatz.org/2021/02/definition-ideal/)
+- [x] [아이디얼, 잉여환](https://nullstellensatz.org/definition-ideal/)
     - [ ] 아이디얼의 연산
     - [ ] 아이디얼의 모듈러 법칙(modular law)
     - [ ] 극대 아이디얼, 소 아이디얼
     - [ ] 아이디얼을 포함하는 아이디얼
     - [ ] Krull 정리: 단원이 아닌 원소를 포함하는 극대 아이디얼의 존재
 - [ ] 환의 준동형정리
-    - [x] [중국인의 나머지 정리](https://nullstellensatz.org/2021/03/chinese-remainder-theorem/)
+    - [x] [중국인의 나머지 정리](https://nullstellensatz.org/chinese-remainder-theorem/)
 - [ ] 환의 국소화, 소 아이디얼에 의한 국소화
     - [ ] 국소화의 보편성
     - [ ] 소 아이디얼의 대응
@@ -138,7 +138,7 @@
 ### Metric Space
 
 - [ ] 거리공간의 정의
-- [x] [노름공간의 정의](https://nullstellensatz.org/2021/03/definition-norm-space)
+- [x] [노름공간의 정의](https://nullstellensatz.org/definition-norm-space)
 - [ ] 내적공간의 정의
 - [ ] 거리공간과 콤팩트성
 - [ ] Hilbert 공간
@@ -159,9 +159,9 @@
 - [ ] 평균치정리
 - [ ] Taylor 정리, Taylor 전개
 - [ ] 점근표기법
-- [x] [Young 부등식](https://nullstellensatz.org/2021/03/young-inequality)
-- [x] [Hölder 부등식](https://nullstellensatz.org/2021/03/holder-inequality/)
-- [x] [Minkowski 부등식](https://nullstellensatz.org/2021/03/minkowski-inequality)
+- [x] [Young 부등식](https://nullstellensatz.org/young-inequality)
+- [x] [Hölder 부등식](https://nullstellensatz.org/holder-inequality/)
+- [x] [Minkowski 부등식](https://nullstellensatz.org/minkowski-inequality)
 - [ ] 균등연속함수
 - [ ] 함수의 각점수렴과 균등수렴
     - [ ] Weierstrass 함수
