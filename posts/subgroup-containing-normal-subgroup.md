@@ -1,8 +1,8 @@
 **정리 1**.
 $N$을 [군](/definition-group/) $G$의
 [정규부분군](/definition-normal-subgroup/)이라고 하자.
-$\pi: G\to G/N$을 자연스러운 [준동형](/definition-group-homomorphism/),
-$X$를 $G/N$의 [부분군](/definition-subgroup/)의 집합,
+$\pi: G\to G/N$을 자연스러운 준동형,
+$X$를 $G/N$의 [부분군](/definition-subgroup/) 전체의 집합,
 $Y$를 $N$을 포함하는 $G$의 부분군 전체의 집합이라고 두면, 다음 두 사상
 $\phi$와 $\psi$가 존재하며,
 
@@ -37,5 +37,5 @@ $\pi|_K: K \to G/N$은 준동형이므로, $\pi(K) = \text{Im}(\pi|_K)$는 $G/N$
 - 군 $G$에 대하여 $N\vartriangleleft G$라고 하면, 잉여군 $G/N$의 부분군 전체의 집합
   $X$와 $G$의 $N$을 포함하는 부분군 전체의 집합 $Y$ 간에 일대일 대응이 존재함을 보였다.
     - 구체적으로는, $\phi: X\ni H\mapsto \pi^{-1}(H) \in Y$, $\psi: Y\ni K \mapsto \pi(K) \in X$
-      와 같은 사상이 존재하여, 두 사상이 서로의 역사상이므로 전단사라는 것을 보였다.
+      와 같은 사상이 존재하여, 두 사상이 서로의 역사상이므로, 전단사라는 것을 보였다.
 
