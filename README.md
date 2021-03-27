@@ -68,13 +68,14 @@
 ### Ring Theory
 
 - [x] [환의 정의](https://nullstellensatz.org/definition-ring/)
+    - [ ] 부분환
     - [ ] 다항식환, 차수, 다항식의 나눗셈
     - [ ] [환의 준동형](https://nullstellensatz.org/definition-ring-homomorphism/)
     - [x] [정역, 체](https://nullstellensatz.org/definition-integral-domain-and-field/)
 - [ ] 환 상의 대수
 - [x] [아이디얼, 잉여환](https://nullstellensatz.org/definition-ideal/)
     - [ ] 아이디얼의 연산
-    - [ ] 아이디얼의 모듈러 법칙
+    - [x] 아이디얼의 모듈러 법칙
     - [ ] [소 아이디얼, 극대 아이디얼](https://nullstellensatz.org/definition-prime-maximal-ideal/)
     - [x] [아이디얼을 포함하는 아이디얼](https://nullstellensatz.org/ideal-containing-ideal/)
     - [ ] [Krull 정리](https://nullstellensatz.org/krull/)
@@ -87,23 +88,20 @@
     - [ ] [국소환](https://nullstellensatz.org/definition-local-ring/)
 - [ ] 멱영, 스펙트럼
 - [ ] [UFD, PID, Euclidean 정역](https://nullstellensatz.org/definition-ufd-pid-euclidean-domain/)
-- [ ] 정규환
 - [ ] Eisenstein 판정법
+- [ ] 정규환
 - [ ] Noether 환
 - [ ] Artin 환
 - [ ] PID의 구조정리
-
-### Commutative Algebra
-
 - [ ] 군환
-- [ ] 가군
-- [ ] 가군의 준동형, 표현행렬
+- [ ] 가군의 정의
+    - [ ] 부분가군
+    - [ ] 가군의 준동형, 표현행렬
+    - [ ] 자유가군
+    - [ ] 잉여가군
+    - [ ] 가군의 직곱, 직합
 - [ ] 가군의 준동형정리
-- [ ] 잉여가군
 - [ ] Hilbert 영점정리(Nullstellensatz)
-
-### Algebraic Geometry
-### Representation Theory
 
 ## Topology
 
