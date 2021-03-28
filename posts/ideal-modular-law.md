@@ -1,3 +1,5 @@
+## 아이디얼 연산의 모듈러 법칙
+
 **명제 1**(아이디얼 연산의 모듈러 법칙^modular\ law^[^2]). $I_1,I_2,J$를 [가환환](/definition-ring/) $A$의
 [아이디얼](/definition-ideal/)이라고 하면,
 $(I_1+J)\cap (I_2+J)=(I_1\cap(I_2+J))+J=((I_1+J)\cap I_2)+J$가 성립한다. ---
@@ -46,3 +48,7 @@ $x\notin(xy,x+y)$인 것을 알 수 있으므로, $(I_1+J)\cap(I_2+J)\neq(I_1\ca
 - 아이디얼의 연산 $+$와 $\cap$ 사이에 모듈러 법칙이 성립하는 것을 보였다.
 - 가환환 $A$의 아이디얼 $I_1,I_2,J$에 대하여
   $(I_1+J)\cap (I_2+J)=(I_1\cap I_2)+J$가 성립하지 않는 반례를 제시했다.
+
+## 참고문헌
+
+- M. F. Atiyah, I. G. Macdonald, *"Introduction to Commutative Algebra"*, Addison-Wesley, 1969.

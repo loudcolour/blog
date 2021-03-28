@@ -107,9 +107,10 @@
 
 ### General Topology
 
-- [ ] [위상의 정의](https://nullstellensatz.org/definition-topology/)
-- [ ] 내부작용소, 폐포작용소
-- [ ] 근방
+- [x] [위상의 정의](https://nullstellensatz.org/definition-topology/)
+- [x] [개집합, 폐집합](https://nullstellensatz.org/2021/03/definition-open-closed-set/)
+- [ ] [내부작용소, 폐포작용소](https://nullstellensatz.org/2021/03/definition-interior-closure/)
+- [x] [근방, 근방계](https://nullstellensatz.org/2021/03/definition-neighborhood/)
 - [ ] [위상공간의 생성](https://nullstellensatz.org/definition-topology-basis/)
     - [ ] 기본근방계
     - [ ] 제1가산공리
@@ -117,7 +118,7 @@
     - [ ] 가분위상공간
 - [ ] 연속사상, 위상동형
     - [ ] 유도위상, 부분위상
-    - [ ] 곱위상
+    - [ ] [곱위상](https://nullstellensatz.org/definition-product-topology/)
     - [ ] 몫위상
 - [ ] 연결위상공간
     - [ ] 연결성과 호장연결
