@@ -1,3 +1,5 @@
+## 군의 준동형정리
+
 **정리 1**(군의 준동형정리).
 $\phi: G\to H$를 [군의 준동형](/definition-group-homomorphism/)이라고 하자. $\pi: G\to G/\text{Ker}(\phi)$를
 자연스러운 준동형이라고 할 때, $\phi = \psi\circ\pi$를 만족하는 준동형
@@ -50,3 +52,6 @@ $\text{Im}(\det) = \SetR^{\times}$, $\text{Ker}(\det) = \text{SL}_n(\SetR)$과
 
 - **군의 준동형정리**, 즉, 준동형 $\phi: G\to H$가 주어졌을 때, $G/\text{Ker}(\phi) \cong \text{Im}(\phi)$가 성립하는 것을 보였다.
 
+## 참고문헌
+
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．

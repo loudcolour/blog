@@ -1,3 +1,5 @@
+## Minkowski 부등식
+
 **정리 1**(Minkowski 부등식). 수열 $(a_n)_{n\in\SetN}$, $(b_n)_{n\in\SetN}$과,
 $p\in [1,\infty)$에 대하여, $\sum_{i=0}^{\infty} |a_i|^p, \sum_{i=0}^{\infty} |b_i|^p < \infty$
 라고 하면, 다음 부등식이 성립한다.

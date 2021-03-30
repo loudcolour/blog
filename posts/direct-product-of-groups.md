@@ -36,3 +36,7 @@ $G = HK$라고 하면, $G \cong H\times K$이다. ---
   부여하여, 군의 **직곱**을 정의했다.
 - 군 $G$에 대하여 $H,K\vartriangleleft G$, $H\cap K = \left\{ 1_G \right\}$, $G = HK$라면,
   $G\cong H\times K$임을 보였다.
+
+## 참고문헌
+
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．

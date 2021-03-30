@@ -1,3 +1,5 @@
+## 군의 제2동형정리
+
 **정리 1**(군의 제2동형정리).
 $H, N$을 [군](/definition-group/) $G$의 [부분군](/definition-subgroup/),
 특히 [$N \vartriangleleft G$](/definition-normal-subgroup/)라고 하자. 이 때, 다음 사실이 성립한다.
@@ -46,3 +48,6 @@ $m\SetZ/L\SetZ = H/H\cap N \cong HN / N = G\SetZ/n\SetZ$이 성립하는 것을 
   준동형 사상 $\phi: H\ni h\mapsto hN \in HN/N$에 준동형정리를 적용하여 제2동형정리,
   즉, $H/H\cap N\cong HN/N$임을 보였다.
 
+## 참고문헌
+
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．

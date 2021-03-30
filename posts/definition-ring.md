@@ -64,3 +64,8 @@ $\square$
 [^3]: 마찬가지로, 역원이 존재한다면 유일하다. 이에 따라, $a$가 역원이
   존재한다면 이를 $a^{-1}$과 같이 쓰기로 한다.
 
+## 참고문헌
+
+- M. F. Atiyah, I. G. Macdonald, *"Introduction to Commutative Algebra"*, Addison-Wesley, 1969.
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．
+- 雪江 明彦，『代数学 2 環と体とガロア理論』，日本評論社，2010．

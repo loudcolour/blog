@@ -31,3 +31,6 @@ $G_{i+1}\vartriangleleft G$이므로, $G_{i+1} \vartriangleleft G_i$이다.
 [^1]: [교환자군과 가해군](/definition-solvable-group/#부분군으로서의-교환자군), 명제 2.
 [^2]: [교환자군과 가해군](/definition-solvable-group/#가해군의-정의), 정리 4.
 
+## 참고문헌
+
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．

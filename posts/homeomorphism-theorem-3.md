@@ -1,3 +1,5 @@
+## 군의 제3동형정리
+
 **정리 1**(군의 제3동형정리).
 [군](/definition-group/) $G$에 대하여, [$H\vartriangleleft G$](/definition-normal-subgroup/), $N\vartriangleleft G$,
 $H\supset N$이라면, $\left( G/N \right)/ \left( H/N \right) \cong G/H$이다. ---
@@ -61,4 +63,6 @@ $\pi_N: G\to G/N$을 자연스러운 준동형이라고 할 때, 다음 두 조�
   $\phi = \psi_N\circ\pi_N$을 만족하는 준동형 $\psi_N$이 존재할 필요충분조건이
   $N\subset \text{Ker}(\phi)$임을 보였다.
 
+## 참고문헌
 
+- 雪江 明彦，『代数学 1 群論入門』，日本評論社，2010．

@@ -1,3 +1,5 @@
+## 정규부분군을 포함하는 부분군
+
 **정리 1**.
 $N$을 [군](/definition-group/) $G$의
 [정규부분군](/definition-normal-subgroup/)이라고 하자.
@@ -39,3 +41,6 @@ $\pi|_K: K \to G/N$은 준동형이므로, $\pi(K) = \text{Im}(\pi|_K)$는 $G/N$
     - 구체적으로는, $\phi: X\ni H\mapsto \pi^{-1}(H) \in Y$, $\psi: Y\ni K \mapsto \pi(K) \in X$
       와 같은 사상이 존재하여, 두 사상이 서로의 역사상이므로, 전단사라는 것을 보였다.
 
+## 참고문헌
+
+- 雪江 明彦，『代数学 1 環と体とガロア理論』，日本評論社，2010．

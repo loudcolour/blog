@@ -1,3 +1,5 @@
+## 아이디얼을 포함하는 아이디얼
+
 **정리 1**. $A$를 [비자명한 가환환](/definition-ring/), $I\subsetneq A$를 $A$의
 [아이디얼](/definition-ideal/)이라고 하자.  $\pi\colon A\to A/I$를 자연스러운
 준동형, $X$를 $A/I$의 아이디얼 전체의 집합, $Y$를 $I$를 포함하는
@@ -32,3 +34,7 @@ $\phi$와 $\psi$는 서로의 역사상이다. 따라서 $X$와 $Y$간에는 일
       $\psi\colon Y\ni K\mapsto\pi(K)\in X$ 와 같은 사상이 존재하여,
       두 사상이 서로의 역사상이므로, 전단사라는 것을 보였다.
 
+## 참고문헌
+
+- M. F. Atiyah, I. G. Macdonald, *"Introduction to Commutative Algebra"*, Addison-Wesley, 1969.
+- 雪江 明彦，『代数学 2 環と体とガロア理論』，日本評論社，2010．
